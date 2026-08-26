@@ -12,7 +12,7 @@ There is not a unified, publicly available database of operational or legacy oil
 
 ## Data
 
-A description of the source data which were incorporated into this database, described in @tbl-Table1 and @tbl-Table2, and a map of the well sites is shown in @fig-Figure1.  The OROGO database contributed the largest number of records to the database, followed by the GSC open files and the Arktis report (which had substantial overlap), followed by the Basin database, and then the GeoYukon database.  Additionally, the LTLC report provided supplemental information for a number of off-shore wells in the Beaufort Sea, however this report did not contain coordinates so the unique wells (n=2) in this dataset could not be geolocated.
+A description of the source data which were incorporated into this database, described in @tbl-Table1 and @tbl-Table2, and a map of the well sites is shown in @fig-map1.  The OROGO database contributed the largest number of records to the database, followed by the GSC open files and the Arktis report (which had substantial overlap), followed by the Basin database, and then the GeoYukon database.  Additionally, the LTLC report provided supplemental information for a number of off-shore wells in the Beaufort Sea, however this report did not contain coordinates so the unique wells (n=2) in this dataset could not be geolocated.
 
 {{< include includes/Table1.qmd >}}
 
@@ -25,8 +25,10 @@ A description of the source data which were incorporated into this database, des
 
 
 ```{python}
+#| echo: False
+#| label: fig-map1
 #| fig-cap: Map of well sites in Canada north of 60 degrees Latitude.
-#| label: fig-Map1
+
 import geopandas as gpd
 import matplotlib.pyplot as plt
 import geodatasets
@@ -34,8 +36,6 @@ import contextily as cx
 
 WellSites = gpd.read_file('source_data/wells/NorthernWellSites.geojson').to_crs('EPSG:3978')
 
-# ISR_poly = gpd.read_file('data/Region_inuite_Inuit_Region.shp')
-# ISR_poly = ISR_poly.loc[ISR_poly['REGION']=='Inuvialuit'].to_crs('EPSG:3978')
 fig,ax=plt.subplots(figsize=(10,10))
 
 for source in WellSites['Data_Source'].unique():
@@ -44,13 +44,11 @@ for source in WellSites['Data_Source'].unique():
 offset = 1e5
 xmin,xmax,ymin,ymax=WellSites.geometry.x.min()-offset,WellSites.geometry.x.max()+offset,WellSites.geometry.y.min()-offset,WellSites.geometry.y.max()+offset
 
-# ISR_poly.plot(ax=ax,color='None',edgecolor='k')
-
 ax.set_xlim(xmin,xmax)
 ax.set_ylim(ymin,ymax)
 cx.add_basemap(ax,crs = WellSites.crs , source=cx.providers.Esri.WorldImagery)
 ax.set_title("Well Sites in the Northern Canada")
 ax.axis('off')
 ax.legend('Wells by data source(s)')
-
+plt.show()
 ```
