@@ -1,0 +1,56 @@
+---
+title: "Northern Oil and Gas Well Site Database"
+authors: Dr. June Skeeter & Dr. Peter Morse
+format: docx
+python3: jupyter
+bibliography: citations/WellSites_autofmt.json
+---
+
+## Background and Motivation
+
+There is not a unified, publicly available database of operational or legacy oil and gas well sites in Canada's north.  This presents a challenge for local governments, regulators, and academics wishing to understand hazards associated with oil and gas infrastructure.  This issue is particularly notable within the Inuvialuit Settlement Region (ISR), which seems to exist within an information "black hole" in regards to well locations, despite decades of oil and gas exploration in the area.  While the because the NWT Office of the Regulator of Oil and Gas Operations (OROGO) does maintain the publicly accessible [OROGO Well Status](https://www.orogo.gov.nt.ca/en/orogo-well-status) database, OROGO does not have jurisdiction over the ISR.  The Canadian Energy Regulator has jurisdiction over well site data in the region, however however the majority of wells in the ISR has been excluded from their publicly accessible [Basin Database](https://basin.marine-geo.canada.ca/index_e.php).  Here, we present a synthesis of publicly available records to yield the most comprehensive dataset of well sites in Northern Canada.
+
+## Data
+
+A description of the source data which were incorporated into this database, described in @tbl-Table1 and @tbl-Table2, and a map of the well sites is shown in @fig-Figure1.  The OROGO database contributed the largest number of records to the database, followed by the GSC open files and the Arktis report (which had substantial overlap), followed by the Basin database, and then the GeoYukon database.  Additionally, the LTLC report provided supplemental information for a number of off-shore wells in the Beaufort Sea, however this report did not contain coordinates so the unique wells (n=2) in this dataset could not be geolocated.
+
+{{< include includes/Table1.qmd >}}
+
+: Sources used in compiling the databased {#tbl-Table1}
+
+
+{{< include includes/Table2.qmd >}}
+
+: Summary of record counts and record completeness within the database by data source(s).  Hyphenated sources indicate records that were present in multiple sources.  All records from each source included a name, so that column is not shown here. {#tbl-Table2} 
+
+
+```{python}
+#| fig-cap: Map of well sites in Canada north of 60 degrees Latitude.
+#| label: fig-Map1
+import geopandas as gpd
+import matplotlib.pyplot as plt
+import geodatasets
+import contextily as cx
+
+WellSites = gpd.read_file('source_data/wells/NorthernWellSites.geojson').to_crs('EPSG:3978')
+
+# ISR_poly = gpd.read_file('data/Region_inuite_Inuit_Region.shp')
+# ISR_poly = ISR_poly.loc[ISR_poly['REGION']=='Inuvialuit'].to_crs('EPSG:3978')
+fig,ax=plt.subplots(figsize=(10,10))
+
+for source in WellSites['Data_Source'].unique():
+	Wp = WellSites.loc[WellSites['Data_Source'] == source].copy()
+	cax = ax.scatter(Wp.geometry.x,Wp.geometry.y,edgecolor='black',s=50,alpha=0.5,label=source)
+offset = 1e5
+xmin,xmax,ymin,ymax=WellSites.geometry.x.min()-offset,WellSites.geometry.x.max()+offset,WellSites.geometry.y.min()-offset,WellSites.geometry.y.max()+offset
+
+# ISR_poly.plot(ax=ax,color='None',edgecolor='k')
+
+ax.set_xlim(xmin,xmax)
+ax.set_ylim(ymin,ymax)
+cx.add_basemap(ax,crs = WellSites.crs , source=cx.providers.Esri.WorldImagery)
+ax.set_title("Well Sites in the Northern Canada")
+ax.axis('off')
+ax.legend('Wells by data source(s)')
+
+```

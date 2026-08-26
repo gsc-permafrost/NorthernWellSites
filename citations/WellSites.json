@@ -1,0 +1,755 @@
+[
+	{
+		"id": "http://zotero.org/users/2672135/items/XEPZB5VY",
+		"type": "article-journal",
+		"abstract": "Growing season surface–atmosphere exchange of carbon dioxide and methane were quantified at Fish Island, a wetland site in the lower northeast Mackenzie River Delta, Northwest Territories, Canada. The terrain consists of low-center polygonal tundra and is subject to infrequent flooding in high water years. Carbon dioxide and methane fluxes were continuously measured using eddy covariance and the relevance of different environmental controls were identified using neural networks. Net daily carbon dioxide uptake peaked in mid-July before gradually decreasing and transitioning to net daily emissions by September. Variations in light level and temperature were the main controls over diurnal net carbon dioxide uptake, whereas thaw depth and phenology were the main seasonal controls. Methane emissions measured at Fish Island were higher than comparable studies on river delta sites in the Arctic and were influenced by the interaction of a large number of factors including thaw and water table depth, soil temperatures, and net radiation. Spikes in methane emissions were associated with strong winds and turbulence. The Fish Island tundra was a net sink for carbon during the growing season and methane emissions only slightly reduced the overall sink strength.",
+		"container-title": "Arctic Science",
+		"DOI": "10.1139/as-2021-0034",
+		"issue": "2",
+		"license": "All rights reserved",
+		"note": "publisher: NRC Research Press",
+		"page": "471-497",
+		"source": "cdnsciencepub.com (Atypon)",
+		"title": "Controls on carbon dioxide and methane fluxes from a low-center polygonal peatland in the Mackenzie River Delta, Northwest Territories",
+		"URL": "https://cdnsciencepub.com/doi/full/10.1139/as-2021-0034",
+		"volume": "8",
+		"author": [
+			{
+				"family": "Skeeter",
+				"given": "June"
+			},
+			{
+				"family": "Christen",
+				"given": "Andreas"
+			},
+			{
+				"family": "Henry",
+				"given": "Greg H.R."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					10,
+					31
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2672135/items/C749YZ5K",
+		"type": "book",
+		"abstract": "The Working Group I contribution to the Sixth Assessment Report addresses the most up-to-date physical understanding of the climate system and climate change, bringing together the latest advances in climate science, and combining multiple lines of evidence from paleoclimate, observations, process understanding, and global and regional climate simulations.",
+		"publisher": "Cambridge University Press",
+		"source": "IPCC",
+		"title": "Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change",
+		"title-short": "Climate Change 2021",
+		"contributor": [
+			{
+				"family": "Masson-Delmotte",
+				"given": "Valérie"
+			},
+			{
+				"family": "Zhai",
+				"given": "Panmao"
+			},
+			{
+				"family": "Pirani",
+				"given": "Anna"
+			},
+			{
+				"family": "Connors",
+				"given": "Sarah L."
+			},
+			{
+				"family": "Péan",
+				"given": "C."
+			},
+			{
+				"family": "Berger",
+				"given": "Sophie"
+			},
+			{
+				"family": "Caud",
+				"given": "Nada"
+			},
+			{
+				"family": "Chen",
+				"given": "Y."
+			},
+			{
+				"family": "Goldfarb",
+				"given": "Leah"
+			},
+			{
+				"family": "Gomis",
+				"given": "Melissa I."
+			},
+			{
+				"family": "Huang",
+				"given": "Mengtian"
+			},
+			{
+				"family": "Leitzell",
+				"given": "Katherine"
+			},
+			{
+				"family": "Lonnoy",
+				"given": "Elisabeth"
+			},
+			{
+				"family": "Matthews",
+				"given": "J. B. Robin"
+			},
+			{
+				"family": "Maycock",
+				"given": "Thomas K."
+			},
+			{
+				"family": "Waterfield",
+				"given": "Tim"
+			},
+			{
+				"family": "Yelekçi",
+				"given": "Özge"
+			},
+			{
+				"family": "Yu",
+				"given": "R."
+			},
+			{
+				"family": "Zhou",
+				"given": "Botao"
+			}
+		],
+		"author": [
+			{
+				"family": "IPCC",
+				"given": ""
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2672135/items/B5WDSI2Q",
+		"type": "article-journal",
+		"abstract": "Arctic permafrost caps vast amounts of old, geologic methane (CH4) in subsurface reservoirs. Thawing permafrost opens pathways for this CH4 to migrate to the surface. However, the occurrence of geologic emissions and their contribution to the CH4 budget in addition to recent, biogenic CH4 is uncertain. Here we present a high-resolution (100 m × 100 m) regional (10,000 km²) CH4 flux map of the Mackenzie Delta, Canada, based on airborne CH4 flux data from July 2012 and 2013. We identify strong, likely geologic emissions solely where the permafrost is discontinuous. These peaks are 13 times larger than typical biogenic emissions. Whereas microbial CH4 production largely depends on recent air and soil temperature, geologic CH4 was produced over millions of years and can be released year-round provided open pathways exist. Therefore, even though they only occur on about 1% of the area, geologic hotspots contribute 17% to the annual CH4 emission estimate of our study area. We suggest that this share may increase if ongoing permafrost thaw opens new pathways. We conclude that, due to permafrost thaw, hydrocarbon-rich areas, prevalent in the Arctic, may see increased emission of geologic CH4 in the future, in addition to enhanced microbial CH4 production.",
+		"container-title": "Scientific Reports",
+		"DOI": "10.1038/s41598-017-05783-2",
+		"ISSN": "2045-2322",
+		"issue": "1",
+		"journalAbbreviation": "Sci Rep",
+		"language": "en",
+		"license": "2017 The Author(s)",
+		"page": "1-6",
+		"source": "www.nature.com",
+		"title": "Strong geologic methane emissions from discontinuous terrestrial permafrost in the Mackenzie Delta, Canada",
+		"URL": "https://www.nature.com/articles/s41598-017-05783-2",
+		"volume": "7",
+		"author": [
+			{
+				"family": "Kohnert",
+				"given": "Katrin"
+			},
+			{
+				"family": "Serafimovich",
+				"given": "Andrei"
+			},
+			{
+				"family": "Metzger",
+				"given": "Stefan"
+			},
+			{
+				"family": "Hartmann",
+				"given": "Jörg"
+			},
+			{
+				"family": "Sachs",
+				"given": "Torsten"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					1,
+					22
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					7,
+					19
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2672135/items/8VTETIEQ",
+		"type": "article-journal",
+		"abstract": "The Mackenzie River delta is the second largest Arctic river delta in the world. Thin and destabilizing permafrost coupled with vast natural gas reserves at depth, high organic-content soils, and a high proportion of wetlands create a unique ecosystem conducive to high rates of methane (CH4) emission from biogenic and thermogenic sources. Hotspots are known to have a significant contribution to summertime CH4 emissions in the region. Still, little research has been done to determine how often geologic or biogenic CH4 contributes to hotspots in the Mackenzie River delta. In the present study, stable carbon isotope analysis was used to identify the source of CH4 at several aquatic and terrestrial sites thought to be hotspots of CH4 flux to the atmosphere. Walking transects and point samples of atmospheric CH4 and CO2 concentrations were measured. Source stable carbon isotope (δ13C-CH4) signatures were derived from keeling plots of point samples and ranged from −42 ‰ to −88 ‰ δ13C-CH4, identifying both biogenic and thermogenic sources. A CH4 source was determined for eight hotspots, two of which were thermogenic in origin (−42.5 ‰, −44.7 ‰), four of which were biogenic in origin (−71.9 ‰ to −88.3 ‰), and two of which may have been produced by the oxidation of biogenic CH4 (−53.0 ‰, −63.6 ‰), as evidenced by δ13C-CH4 signatures. This indicates that the largest hotspots of CH4 production in the Mackenzie River delta are caused by a variety of sources.",
+		"container-title": "The Cryosphere",
+		"DOI": "10.5194/tc-17-5283-2023",
+		"ISSN": "1994-0416",
+		"issue": "12",
+		"language": "English",
+		"note": "publisher: Copernicus GmbH",
+		"page": "5283-5297",
+		"source": "Copernicus Online Journals",
+		"title": "Characterization of atmospheric methane release in the outer Mackenzie River delta from biogenic and thermogenic sources",
+		"URL": "https://tc.copernicus.org/articles/17/5283/2023/",
+		"volume": "17",
+		"author": [
+			{
+				"family": "Wesley",
+				"given": "Daniel"
+			},
+			{
+				"family": "Dallimore",
+				"given": "Scott"
+			},
+			{
+				"family": "MacLeod",
+				"given": "Roger"
+			},
+			{
+				"family": "Sachs",
+				"given": "Torsten"
+			},
+			{
+				"family": "Risk",
+				"given": "David"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					4,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					12,
+					13
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2672135/items/T2IZH3A4",
+		"type": "article-journal",
+		"abstract": "Sources and fluxes of methane to the atmosphere from permafrost are significant but poorly constrained in global climate models. We present data collected from the variable permafrost setting of the outer Mackenzie River Delta, including observations of aquatic methane seepage, core determinations of in situ methane occurrence and seep gas isotope geochemistry. The sources and locations of in situ geologic methane occurrence and aquatic and atmospheric gas release appear to be controlled by the regional geology and permafrost conditions. Where permafrost is >250 m thick, thermogenic gas deposits at depth are isolated by laterally continuous, low permeability ice-bearing sediments with few through-going thawed taliks. Thus, the observed in situ methane and aquatic gas seepage appears to be dominated by microbial methane. In contrast, where permafrost is <80 m thick, taliks are more likely to be through-going, providing permeable conduits from depth and migration pathways for both thermogenic and biogenic gas. Continuous annual fluid sampling of two lakes and a river channel documents aquatic methane flux from microbial sources, more deeply buried thermogenic sources, and mixtures of both. Using estimates of in situ methane concentration from deep core samples and observations of in situ free gas occurrences, we conclude that the reservoir of in situ geologic methane within ice bonded permafrost is substantial and that this methane is presently migrating with ongoing atmospheric release. It is our assessment that the permafrost setting, and processes described are sensitive to future climate change as the permafrost warms.",
+		"container-title": "Journal of Geophysical Research: Earth Surface",
+		"DOI": "10.1029/2023JF007515",
+		"ISSN": "2169-9011",
+		"issue": "6",
+		"language": "en",
+		"page": "e2023JF007515",
+		"source": "Wiley Online Library",
+		"title": "Source, Migration Pathways, and Atmospheric Release of Geologic Methane Associated With the Complex Permafrost Regimes of the Outer Mackenzie River Delta, Northwest Territories, Canada",
+		"URL": "https://onlinelibrary.wiley.com/doi/abs/10.1029/2023JF007515",
+		"volume": "129",
+		"author": [
+			{
+				"family": "Dallimore",
+				"given": "Scott R."
+			},
+			{
+				"family": "Lapham",
+				"given": "Laura L."
+			},
+			{
+				"family": "Côté",
+				"given": "Michelle M."
+			},
+			{
+				"family": "Bowen",
+				"given": "Robert"
+			},
+			{
+				"family": "MacLeod",
+				"given": "Roger"
+			},
+			{
+				"family": "McIntosh Marcek",
+				"given": "Hadley A."
+			},
+			{
+				"family": "Wheat",
+				"given": "C. Geoff"
+			},
+			{
+				"family": "Collett",
+				"given": "Timothy S."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					8,
+					19
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2672135/items/VEMPA4GM",
+		"type": "article-journal",
+		"abstract": "Abandoned\noil and gas wells can act as leakage pathways for methane,\na potent greenhouse gas, and other fluids to migrate through the subsurface and to the atmosphere. National estimates of methane emissions remain highly uncertain, and available measurements do not provide details on whether the emissions are associated with well integrity failure (indicating subsurface leaks) or aboveground well infrastructure leaks. Therefore, we directly measured methane emission rates from 238 unplugged and plugged abandoned wells across Alberta and Saskatchewan, Canada, separately quantified emissions from surface casing vents and other emissions from the wellhead (non-surface casing vent), and developed emission factors to estimate Canada-wide emissions from abandoned\nwells. Our highest measured emission rate (5.2 × 106 mg CH4/hr) from an unplugged gas well was two to three\ntimes higher than the largest previously published emission rate from\nan abandoned well. We estimated methane emissions from abandoned wells\nin Canada to be 85–93 kilotonnes of methane per year, of which\nsurface casing vent emissions represented 75–82% (70 kilotonnes\nof methane per year). We found that subsurface leaks, as evidenced\nby surface casing vent flows, occurred at 32% of abandoned wells in\nAlberta, substantially higher than previously estimated using provincial\ndata alone (6 and 11%). Therefore, well integrity failures and groundwater\ncontamination are likely to be more common than previous studies suggest.",
+		"container-title": "Environmental Science & Technology",
+		"DOI": "10.1021/acs.est.3c06946",
+		"ISSN": "0013-936X",
+		"issue": "48",
+		"journalAbbreviation": "Environ. Sci. Technol.",
+		"page": "19594-19601",
+		"source": "Silverchair",
+		"title": "Methane Emissions from Abandoned Oil and Gas Wells in Alberta and Saskatchewan, Canada: The Role of Surface Casing Vent Flows",
+		"title-short": "Methane Emissions from Abandoned Oil and Gas Wells in Alberta and Saskatchewan, Canada",
+		"URL": "https://doi.org/10.1021/acs.est.3c06946",
+		"volume": "57",
+		"author": [
+			{
+				"family": "Bowman",
+				"given": "Lauren V."
+			},
+			{
+				"family": "El Hachem",
+				"given": "Khalil"
+			},
+			{
+				"family": "Kang",
+				"given": "Mary"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					8,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					11,
+					21
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2672135/items/YJGYLM4G",
+		"type": "article-journal",
+		"abstract": "Arctic-boreal regions are experiencing major anthropogenic disturbances in addition to intensifying natural disturbance regimes as a consequence of climate change. Oil and natural gas (OG) activities are extensive in the Arctic-boreal region of western North America, a large portion of which is underlain by permafrost. The total number and distribution of OG wells and their potential fate remain unclear. Consequently, the collective impacts of OG wells on natural and cultural resources, human health and emissions of methane (CH4), are poorly understood. Using public OG well databases, we analysed the distribution of OG wells drilled between 1984 and 2018 across the Core Domain of the NASA Arctic-Boreal Vulnerability Experiment (‘ABoVE domain’). We identified 242 007 OG wells drilled as of 2018 in the ABoVE domain, of which almost two thirds are now inactive or abandoned OG wells. We found that annual drilling has increased from 269 to 8599 OG wells from 1984 to 2014 with around 1000, 700 and 1800 OG wells drilled annually in evergreen forest, deciduous forest and herbaceous land cover types, respectively. 65 588 OG well sites were underlain by permafrost in 2012. Fugitive CH4 emissions from active and abandoned OG wells drilled in the Canadian portion of the ABoVE domain accounted for approximately 13% of the total anthropogenic CH4 emissions in Canada in 2018. Our analysis identified OG wells as an anthropogenic disturbance in the ABoVE domain with potentially non-negligible consequences to local populations, ecosystems, and the climate system.",
+		"container-title": "Environmental Research Letters",
+		"DOI": "10.1088/1748-9326/acbe52",
+		"ISSN": "1748-9326",
+		"issue": "3",
+		"journalAbbreviation": "Environ. Res. Lett.",
+		"language": "en",
+		"note": "publisher: IOP Publishing",
+		"page": "035008",
+		"source": "Institute of Physics",
+		"title": "Oil and natural gas wells across the NASA ABoVE domain: fugitive methane emissions and broader environmental impacts",
+		"title-short": "Oil and natural gas wells across the NASA ABoVE domain",
+		"URL": "https://doi.org/10.1088/1748-9326/acbe52",
+		"volume": "18",
+		"author": [
+			{
+				"family": "Klotz",
+				"given": "Louise A"
+			},
+			{
+				"family": "Sonnentag",
+				"given": "Oliver"
+			},
+			{
+				"family": "Wang",
+				"given": "Ziming"
+			},
+			{
+				"family": "Wang",
+				"given": "Jonathan A"
+			},
+			{
+				"family": "Kang",
+				"given": "Mary"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					8,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2672135/items/L92NVCW3",
+		"type": "article-journal",
+		"abstract": "Abandoned oil and gas wells are one of the most uncertain sources of methane emissions into the atmosphere. To reduce these uncertainties and improve emission estimates, we geospatially and statistically analyze 598 direct methane emission measurements from abandoned oil and gas wells and aggregate well counts from regional databases for the United States (U.S.) and Canada. We estimate the number of abandoned wells to be at least 4,000,000 wells for the U.S. and at least 370,000\nfor Canada. Methane emission factors range from 1.8 × 10–3 g/h to 48 g/h per well depending on the plugging\nstatus, well type, and region, with the overall average at 6.0 g/h.\nWe find that annual methane emissions from abandoned wells are underestimated\nby 150% in Canada and by 20% in the U.S. Even with the inclusion of\ntwo to three times more measurement data than used in current inventory\nestimates, we find that abandoned wells remain the most uncertain\nmethane source in the U.S. and become the most uncertain source in\nCanada. Understanding methane emissions from abandoned oil and gas\nwells can provide critical insights into broader environmental impacts\nof abandoned wells, which are rapidly growing in number around the\nworld.",
+		"container-title": "Environmental Science & Technology",
+		"DOI": "10.1021/acs.est.0c04265",
+		"ISSN": "0013-936X",
+		"issue": "1",
+		"journalAbbreviation": "Environ. Sci. Technol.",
+		"page": "563-570",
+		"source": "Silverchair",
+		"title": "Methane Emissions from Abandoned Oil and Gas Wells in Canada and the United States",
+		"URL": "https://doi.org/10.1021/acs.est.0c04265",
+		"volume": "55",
+		"author": [
+			{
+				"family": "Williams",
+				"given": "James P."
+			},
+			{
+				"family": "Regehr",
+				"given": "Amara"
+			},
+			{
+				"family": "Kang",
+				"given": "Mary"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					8,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					12,
+					15
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2672135/items/QYFJGFNX",
+		"type": "book",
+		"source": "ResearchGate",
+		"title": "A review of Mackenzie Delta-Beaufort Sea petroleum province conventional and non-conventional (gas hydrate) petroleum reserves and undiscovered resources: a contribution to the resource assessment of the proposed Mackenzie Delta-Beaufort Sea Marine Protected Area",
+		"title-short": "A review of Mackenzie Delta-Beaufort Sea petroleum province conventional and non-conventional (gas hydrate) petroleum reserves and undiscovered resources",
+		"author": [
+			{
+				"family": "Osadetz",
+				"given": "Kirk"
+			},
+			{
+				"family": "Dixon",
+				"given": "Jim"
+			},
+			{
+				"family": "Dietrich",
+				"given": "J.R."
+			},
+			{
+				"family": "Snowdon",
+				"given": "Lloyd"
+			},
+			{
+				"family": "Dallimore",
+				"given": "Scott"
+			},
+			{
+				"family": "Majorowicz",
+				"given": "Jacek"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2005",
+					1,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2672135/items/XNSS3BKN",
+		"type": "article-journal",
+		"abstract": "This report presents exploration well data and interpretations relevant for mapping the variation in the depth to the base of ice-bearing permafrost (IBPF) for the Beaufort-Mackenzie Basin. This work is part of a larger government-industry funded petroleum systems study ofthe Beaufort-Mackenzie region that was active from 2001-2013. Geophysical well logs, well seismic surveys, shallow repeated temperature surveys, and deeper borehole temperature-depth profiles are utilized to determine the base of IBPF for 265 wells in the basin. Composite plots of log, seismicvelocity and shallow temperature data illustrate typical geophysical responses and provide multi-parameter evidence for integrated interpretations of the IBPF zone. IBPF determinations are quality-assessed in terms of their reliability using a standardised scale based on the type of methods used andthe quality of data available. For many of the wells, a sharp change in electrical and acoustic properties marks the base of the interpreted fully frozen IBPF zone which may represent the base of ice-bonded permafrost. For 135 wells, there is an underlying transition zone between 7 m to 210 m in thickness that is interpreted torepresent partially-frozen IBPF. The interpreted co-existence of water and ice may be the result of changes in lithology, grain size, texture and/or pore water salinity which can affect the freezing point. There is a good correlation between the geophysically-determined base of IBPF and the depth tothe base of permafrost from temperature surveys. This suggests that the mapped IBPF zone is a useful thermal boundary condition for thermal modelling and heat flow studies. For most of the wells, IBPF is confined to sandstones and conglomerates within Cenozoic sediments of the post-rift succession. Beneath the Beaufort Shelf, base of IBPF occurs within highly porous sediments of the Plio-Pleistocene Iperk Sequence. For central onshore areas (Richards Island and areasto south), base of IBPF occurs in progressively older, more deeply exhumed Cenozoic strata in a southward direction. Along the southeastern basin margin on Tuktoyaktuk Peninsula, IBPF extends into the Paleocene-Eocene Aklak Sequence. In the southernmost part of the basin and in the fold belt to thewest, IBPF is encountered in Lower Cretaceous syn-rift and Upper Cretaceous post-rift strata. Permafrost occurs in exhumed Paleozoic strata in the Anderson Plain southwest of Tuktoyaktuk Peninsula. Depth to the base of IBPF varies from 0 m (no IBPF) to > 700 m across the study area. It isthinnest along the southern (landward) basin margin and in the deformed and exhumed western part of the basin, and is thickest in the rapidly deposited Cenozoic strata of the eastern shelf beneath the Beaufort Sea. IBPF may be absent over much of the modern delta area around MackenzieBay.",
+		"language": "English",
+		"note": "publisher: Natural Resources Canada",
+		"source": "ostrnrcan-dostrncan.canada.ca",
+		"title": "Permafrost investigation by well logs, and seismic velocity and repeated shallow temperature surveys, Beaufort-Mackenzie Basin",
+		"URL": "https://ostrnrcan-dostrncan.canada.ca/handle/1845/159674",
+		"author": [
+			{
+				"family": "Hu",
+				"given": "K."
+			},
+			{
+				"family": "Issler",
+				"given": "D. R."
+			},
+			{
+				"family": "Chen",
+				"given": "Z."
+			},
+			{
+				"family": "Brent",
+				"given": "T. A."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					8,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2013",
+					11,
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2672135/items/LDAG7GXS",
+		"type": "report",
+		"publisher": "Arktis Solutions",
+		"title": "Inuvialuit Settlement Region; Drilling Sumps Failure and Climate Change Report",
+		"URL": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiT35ezmLKWAxVyoisGHbwrKCEQFnoECA0QAQ&url=https://irc.inuvialuit.com/wp-content/uploads/2023/10/IRC_Drilling-Sumps-Failure-and-Climate-Change-Report.pdf&usg=AOvVaw0j_-_UcZ_u18z3As721IPS&opi=89978449",
+		"author": [
+			{
+				"family": "Van Gulck",
+				"given": "Jamie"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					8,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					11,
+					20
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2672135/items/KW9JAHEK",
+		"type": "webpage",
+		"language": "en",
+		"title": "OROGO Well Status | Office of the Regulator of Oil and Gas Operations",
+		"URL": "https://www.orogo.gov.nt.ca/en/orogo-well-status",
+		"author": [
+			{
+				"family": "OROGO",
+				"given": ""
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					8,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2026",
+					4,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2672135/items/ISMKZIU6",
+		"type": "webpage",
+		"title": "Geocortex Viewer for HTML5",
+		"URL": "https://mapservices.gov.yk.ca/GeoYukon/index.html?layerTheme=9",
+		"author": [
+			{
+				"family": "Yukon",
+				"given": "Government"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					8,
+					24
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2672135/items/QVXKTE6J",
+		"type": "webpage",
+		"abstract": "The BASIN database contains a wealth of geological, geophysical and engineering information related to years of hydrocarbon exploration and development, primarily in the offshore areas of eastern Canada",
+		"language": "eng",
+		"note": "Last Modified: 2021-12-19\npublisher: Natural Resources Canada, Geological Survey of Canada",
+		"title": "BASIN contains a wealth of geological, geophysical and engineering information related to many years of petroleum exploration",
+		"URL": "https://basin.marine-geo.canada.ca/wells/basin.gdr.nrcan.gc.ca",
+		"author": [
+			{
+				"family": "Natural Resources Canada",
+				"given": "Geological Survey of Canada"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					8,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2672135/items/4LIZ369C",
+		"type": "article-journal",
+		"abstract": "A comprehensive database consisting of geophysical data, drilling mud weights, and subsurface temperature, and formation pressure measurements was compiled and utilized to detect the depth to top of overpressure for the petroleum exploration wells in the Beaufort-MackenzieBasin. One hundred and fifty-two depths to the top of overpressure were determined for 112 wells by using geophysical methods, supplemented with drilling and geothermal data. The majority of overpressure picks were confirmed using measured pore fluid pressure data. An additional 36 wells arebelieved to be too shallow to have penetrated an underlying overpressured zone. Composite plots for each well are presented graphically with wireline logs, well seismic velocities, mud weights, and borehole temperatures to illustrate the geophysical, drilling and geothermal responses and theircorrelations with well testing data, thus providing multi-parameter evidence for an integrated interpretation of overpressure distribution.Overpressure interpretations were ranked based on the availability and quality of the various types of data, as well as the reliability of the different methods used. Among the geophysical data that are good indicators of overpressure occurrences, shale sonic transit-time (and transformed porosity)and continuous sonic velocity are preferred because of the abundance of these data and the sensitivity of rock acoustic properties to porosity and stress. Mud weights provide an upper estimate of in situ pore pressure because of the need to approximately balance formation pressures during drilling;interpretations based on mud weights are mostly consistent with the results from geophysical data and measured fluid pressures from well tests. The interpreted depth to the top of overpressure varies from <1000 to over 4500 m (GL/SL) and is largely confined to undercompacted sediments in thecentral-northern delta and offshore areas. Overpressure occurs predominantly within the Paleogene Aklak, Taglu, Richards, and Kugmallit sequences, but can reach the base of the Plio-Pleistocene Iperk Sequence in wells on the outer shelf in the deep-water region of the Beaufort Sea. Our refinedinterpretations of overpressure occurrence in exploration wells provide key control points for more detailed mapping and modelling of overpressures in the basin.",
+		"language": "English",
+		"note": "publisher: Natural Resources Canada",
+		"source": "ostrnrcan-dostrncan.canada.ca",
+		"title": "Overpressure detection from geophysical, drilling and well testing data for petroleum exploration wells in the Beaufort-Mackenzie Basin, Yukon and Northwest Territories",
+		"URL": "https://ostrnrcan-dostrncan.canada.ca/handle/1845/138678",
+		"author": [
+			{
+				"family": "Hu",
+				"given": "K."
+			},
+			{
+				"family": "Issler",
+				"given": "D. R."
+			},
+			{
+				"family": "Chen",
+				"given": "Z."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					8,
+					26
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					2,
+					17
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2672135/items/ZGMQYQZI",
+		"type": "report",
+		"language": "en-US",
+		"publisher": "LTLC Consulting",
+		"title": "Oil and Gas Exploration & Development Activity Forecast Canadian Beaufort Sea 2013 – 2028",
+		"URL": "https://beaufortrea.ca/working-groups/climate-change/",
+		"author": [
+			{
+				"family": "Callow",
+				"given": "Lin"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					8,
+					26
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2013",
+					3
+				]
+			]
+		}
+	}
+]

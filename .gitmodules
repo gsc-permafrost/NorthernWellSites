@@ -1,0 +1,3 @@
+[submodule "scripts/CSL_auto_tag"]
+	path = scripts/CSL_auto_tag
+	url = https://github.com/June-Skeeter/CSL_auto_tag.git

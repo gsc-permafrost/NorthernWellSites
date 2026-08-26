@@ -1,0 +1,8 @@
+project:
+  title: "Northern Well Sites"
+  pre-render: 
+    - scripts/preRender.py
+    - scripts/Compile.py
+
+
+

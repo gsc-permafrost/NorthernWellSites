@@ -1,0 +1,8 @@
+Source    Description                                                                                                                                                     Citation
+--------  --------------------------------------------------------------------------------------------------------------------------------------------------------------  -------------------------------------------------------------------------------------------------------
+GSC       GSC open files with embedded well site data for the Mackenzie Delta and Beaufort Sea, primarily sourced from the Canadian Energy Regulator and/or Industry      @osadetz_review_mackenzie_2005_a; @hu_permafrost_investigation_2013_a; hu_overpressure_detection_2021_a
+OROGO     NWT Office of the Regulator of Oil and Gas Operation (OROGO) maintains a public database of all wells in the NWT *outside of* the Inuvialuit Settlement Region  @orogo_orogo_well_2026_a
+Basin     Database maintained by the Canadian Energy Regulator (CER) covering the central and eastern Arctic                                                              @natural_resources_canada_basin_contains_2021_a
+GeoYukon  Yukon government data portal                                                                                                                                    @yukon_geocortex_viewer_2026_a
+Arktis    Consultant report for the Inuvialuit Regional Corporation (IRC) with an embedded table of well site data                                                        @van_gulck_inuvialuit_settlement_2020_a
+LTLC      Consultant report for Aboriginal Affairs and Northern Development Canada with an embedded table of well site data                                               @callow_oil_gas_2013_a
