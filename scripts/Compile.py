@@ -316,7 +316,11 @@ WellSites = pd.concat(toCat)
 WellSites = gpd.GeoDataFrame(WellSites,geometry=gpd.points_from_xy(x=WellSites['x'],y=WellSites['y']),crs='NAD1983').to_crs('EPSG:4326')
 WellSites['Operator'] = WellSites['Operator'].fillna(None)
 WellSites['Spud_Date'] = WellSites['Spud_Date'].dt.strftime('%Y-%m-%d').fillna(None)
-# WellSites.loc[((WellSites['x'].isna())|(WellSites['y'].isna()))]
+
+cbf = gpd.read_file('source_data/boundary/lpr_000b16a_e.shp').to_crs(WellSites.crs)
+WellSites['Off_Shore'] = True
+WellSites.loc[WellSites.within(cbf.dissolve().geometry[0]),'Off_Shore'] = False
+
 
 WellSites['Latitude'] = WellSites.geometry.y
 WellSites['Longitude'] = WellSites.geometry.x

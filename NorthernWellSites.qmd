@@ -12,7 +12,7 @@ There is not a unified, publicly available database of operational or legacy oil
 
 ## Data
 
-A description of the source data which were incorporated into this database, described in @tbl-Table1 and @tbl-Table2, and a map of the well sites is shown in @fig-map1.  The OROGO database contributed the largest number of records to the database, followed by the GSC open files and the Arktis report (which had substantial overlap), followed by the Basin database, and then the GeoYukon database.  Additionally, the LTLC report provided supplemental information for a number of off-shore wells in the Beaufort Sea, however this report did not contain coordinates so the unique wells (n=2) in this dataset could not be geolocated.
+A description of the source data which were incorporated into this database, described in @tbl-Table1 and @tbl-Table2, and a map of the well sites is shown in @fig-map1.  The OROGO database contributed the largest number of records to the database, followed by the GSC open files and the Arktis report (which had substantial overlap), followed by the Basin database, and then the GeoYukon database.  Additionally, the LTLC report provided supplemental information for a number of off-shore wells in the Beaufort Sea, however this report did not contain coordinates so the unique wells (n=2) in this dataset could not be geolocated.  The database will be updated if information on more well sites become available.
 
 {{< include includes/Table1.qmd >}}
 
@@ -34,7 +34,7 @@ import matplotlib.pyplot as plt
 import geodatasets
 import contextily as cx
 
-WellSites = gpd.read_file('source_data/wells/NorthernWellSites.geojson').to_crs('EPSG:3978')
+WellSites = gpd.read_file('source_data/wells/NorthernWellSites.geojson').to_crs('EPSG:3857')
 
 fig,ax=plt.subplots(figsize=(10,10))
 
@@ -49,6 +49,6 @@ ax.set_ylim(ymin,ymax)
 cx.add_basemap(ax,crs = WellSites.crs , source=cx.providers.Esri.WorldImagery)
 ax.set_title("Well Sites in the Northern Canada")
 ax.axis('off')
-ax.legend('Wells by data source(s)')
+ax.legend(title='Wells by data source(s)')
 plt.show()
 ```
