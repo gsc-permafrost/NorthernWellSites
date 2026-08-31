@@ -9,6 +9,7 @@ import matplotlib as mpl
 
 metadata = pd.DataFrame({
     'Source':[
+        'Visits',
         'GSC',
         'OROGO',
         'Basin',
@@ -17,6 +18,7 @@ metadata = pd.DataFrame({
         'LTLC'
     ],
     'Description':[
+        'Well site visits by Permafrost methane Group',
         'GSC open files with embedded well site data for the Mackenzie Delta and Beaufort Sea, primarily sourced from the Canadian Energy Regulator and/or Industry',
         'NWT Office of the Regulator of Oil and Gas Operation (OROGO) maintains a public database of all wells in the NWT *outside of* the Inuvialuit Settlement Region',
         'Database maintained by the Canadian Energy Regulator (CER) covering the central and eastern Arctic',
@@ -24,6 +26,7 @@ metadata = pd.DataFrame({
         'Consultant report for the Inuvialuit Regional Corporation (IRC) with an embedded table of well site data',
         'Consultant report for Aboriginal Affairs and Northern Development Canada with an embedded table of well site data'],
     'Citation':[
+        'In Prep',
         '@osadetz_review_mackenzie_2005_a; @hu_permafrost_investigation_2013_a; hu_overpressure_detection_2021_a',
         '@orogo_orogo_well_2026_a',
         '@natural_resources_canada_basin_contains_2021_a',
@@ -32,7 +35,7 @@ metadata = pd.DataFrame({
         '@callow_oil_gas_2013_a'
         ],
     },
-    index=['GSC','OROGO','Basin','GeoYukon','Arktis','LTLC'])
+    index=['Visits','GSC','OROGO','Basin','GeoYukon','Arktis','LTLC'])
 
 with open('includes/Table1.qmd','w+') as f:
     f.write(tabulate(metadata[['Source','Description','Citation']],headers='keys',showindex=False))
@@ -51,7 +54,6 @@ standardCols = [
     'Depth', # Depth of well
     'Data_Source' #source(s) for the data
     ]
-
 
 ## GSC data
 
@@ -313,6 +315,20 @@ for source in Summary.index:
         toCat.append(temp)
 
 WellSites = pd.concat(toCat)
+
+
+# Overwrite database with coordinates from well visits where applicable
+Visits = pd.read_csv('source_data/wells/GSC/database/well_visits.csv')
+Visits['x'] = Visits['Longitude']
+Visits['y'] = Visits['Latitude']
+Visits = Visits.set_index('UWI')
+
+WellSites['Leak_Detected'] = None
+for i,row in WellSites[WellSites.index.isin(Visits.index)].iterrows():
+    WellSites.loc[WellSites.index==i,['Latitude','Longitude','Leak_Detected']] = Visits.loc[Visits.index==i,['Latitude','Longitude','Leak_Detected']]
+
+# breakpoint()
+
 WellSites = gpd.GeoDataFrame(WellSites,geometry=gpd.points_from_xy(x=WellSites['x'],y=WellSites['y']),crs='NAD1983').to_crs('EPSG:4326')
 WellSites['Operator'] = WellSites['Operator'].fillna(None)
 WellSites['Spud_Date'] = WellSites['Spud_Date'].dt.strftime('%Y-%m-%d').fillna(None)
