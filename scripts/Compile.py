@@ -326,7 +326,7 @@ Visits = Visits.set_index('UWI')
 WellSites['Leak_Detected'] = None
 WellSites['Surface_Casing_Visible'] = None
 rrep = ['Latitude','Longitude','x','y','Leak_Detected','Surface_Casing_Visible']
-rrep = ['Leak_Detected','Surface_Casing_Visible']
+# rrep = ['Leak_Detected','Surface_Casing_Visible']
 for i,row in WellSites[WellSites.index.isin(Visits.index)].iterrows():
     WellSites.loc[WellSites.index==i,rrep] = Visits.loc[Visits.index==i,rrep]
     
