@@ -699,7 +699,7 @@ UWI,Name,Status,Operator,Spud_Date,Geologic_Formation,Depth,Data_Source,Leak_Det
 300B026930133000,Tuk B-02,Oil,DEVON PC,2002-02-17,Aklak,3171.0,GSC-Arktis,,69.35311,-133.018742,False
 300B116850135150,Unak B-11,Abandoned,Shell,1973-11-07,Iperk,3294.8,GSC-Arktis,,68.669209,-135.313813,False
 300B126920135150,Unipkat B-12,Abandoned,Shell,1992-01-08,Iperk,1185.9,GSC-Arktis,,69.183465,-135.30968,False
-300B196920135150,Niglintgak B-19,Gas and oil,Shell,1975-10-18,Iperk,2898.2,GSC-Arktis,True,69.302971,-135.308043,False
+300B196920135150,Niglintgak B-19,Gas and oil,Shell,1975-10-18,Iperk,2898.2,GSC-Arktis,True,69.302455,-135.307466,False
 300B406920133000,Tuk B-40,Oil,Esso et al.,1985-12-08,Aklak,1799.6,GSC-Arktis,,69.320447,-133.141581,False
 300B526940131450,Itkrilek B-52,Abandoned,Esso et al.,1985-03-21,Aklak,1283.7,GSC-Arktis,,69.520494,-131.978248,False
 300B606840136000,Fish River B-60,Abandoned,Chevron et al.,1977-06-21,Reindeer,3499.7,GSC-Arktis,,68.65069,-136.230116,False
@@ -756,7 +756,7 @@ UWI,Name,Status,Operator,Spud_Date,Geologic_Formation,Depth,Data_Source,Leak_Det
 300H246920134450,Toapolok H-24,Abandoned,Gulf et al.,1974-04-21,Richards,2619.2,GSC-Arktis,,69.221589,-134.84302,False
 300H256950131450,Atkinson H-25,Oil,I.O.E.,1969-12-14,Aklak,1807.1,GSC-Arktis,,69.738229,-131.841991,False
 300H306920133000,Tuk H-30,Gas and oil,Esso et al.,1985-04-21,Aklak,1399.6,GSC-Arktis,,69.32239,-133.089911,False
-300H306920135150,Niglintgak H-30,Gas,Shell,1972-10-24,Iperk,2381.5,GSC-Arktis,Inconclusive,69.322471,-135.34591,True
+300H306920135150,Niglintgak H-30,Gas,Shell,1972-10-24,Iperk,2381.5,GSC-Arktis,Inconclusive,69.322313,-135.346132,True
 300H346830130300,Wolverine H-34,Abandoned,Union,1974-02-05,Imperial,2039.9,GSC-Arktis,,68.388646,-130.6358,False
 300H506950131300,Natagnak H-50,Abandoned,I.O.E.,1970-04-30,Iperk,1949.6,GSC-Arktis,,69.824181,-131.672464,False
 300H546930134450,Taglu H-54,Gas,Imp.,1976-12-02,Mackenzie Bay,2782.8,GSC-Arktis,,69.38882,-134.971116,False
@@ -766,7 +766,7 @@ UWI,Name,Status,Operator,Spud_Date,Geologic_Formation,Depth,Data_Source,Leak_Det
 300I296930131150,Kiligvak I-29,Abandoned,Elf et al.,1973-05-16,Iperk,1955.7,GSC-Arktis,,69.477224,-131.340478,False
 300I306910133150,Nuna I-30,Suspended,PC DEVON,2003-02-07,Taglu,3164.0,GSC-Arktis,,69.15954,-133.338561,False
 300I376850134000,Ikhil I-37,Abandoned,Gulf et al.,1973-04-10,Iperk,4687.2,GSC-Arktis,,68.776026,-134.133221,False
-300I486910135450,Ellice I-48,Gas,Uncertain,2004-02-04,Iperk,,GSC-Arktis,Inconclusive,69.126002,-135.928711,False
+300I486910135450,Ellice I-48,Gas,Uncertain,2004-02-04,Iperk,,GSC-Arktis,Inconclusive,69.125994,-135.928705,False
 300J066850133450,Ogeoqeoq J-06,Abandoned,Gulf Mobil,1975-02-21,Aklak,1834.0,GSC-Arktis,,68.761594,-133.769317,False
 300J066920135000,Kumak J-06,Gas and oil,Shell,1973-11-24,Iperk,3467.0,GSC-Arktis,,69.259921,-135.018808,False
 300J076920132300,Eskimo J-07,Abandoned,I.O.E.,1969-05-10,Iperk,905.0,GSC-Arktis,,69.278587,-132.519119,False
@@ -809,7 +809,7 @@ UWI,Name,Status,Operator,Spud_Date,Geologic_Formation,Depth,Data_Source,Leak_Det
 300M166930132450,Mayogiak M-16,Abandoned,Esso,1980-01-24,Aklak,,GSC-Arktis,,69.432002,-132.82771,False
 300M166930134000,Kilagmiotak M-16,Abandoned,Gulf et al.,1975-02-25,Mackenzie Bay,3152.6,GSC-Arktis,,69.431096,-134.077817,False
 300M186920133000,Tuk M-18,Gas,DEVON PC,2001-12-24,Aklak,2933.7,GSC-Arktis,,69.297363,-133.07902,False
-300M196920135150,Niglintgak M-19,Gas and oil,Shell,1974-06-01,Iperk,3990.2,GSC-Arktis,True,69.313526,-135.326657,True
+300M196920135150,Niglintgak M-19,Gas and oil,Shell,1974-06-01,Iperk,3990.2,GSC-Arktis,True,69.314032,-135.326493,True
 300M266930132300,Pikiolik M-26,Suspended,I.O.E.,1971-12-22,Aklak,1983.2,GSC-Arktis,,69.431922,-132.626618,False
 300M316900134150,Ogruknang M-31,Abandoned,Gulf et al.,1977-04-18,Iperk,4411.0,GSC-Arktis,,68.847717,-134.416698,False
 300M336920134300,YaYa M-33,Abandoned,Gulf et al.,1974-11-22,Kugmallit,,GSC-Arktis,,69.21576,-134.664961,False
@@ -821,7 +821,7 @@ UWI,Name,Status,Operator,Spud_Date,Geologic_Formation,Depth,Data_Source,Leak_Det
 300N056930134150,Umiak N-05,Gas,MGM Energy Corp.,2005-01-18,Kugmallit,,GSC-Arktis,,69.415696,-134.275038,False
 300N106900133300,Parsons N-10,Gas,Gulf et al.,1973-02-24,Aklak,,GSC-Arktis,,68.996749,-133.533263,False
 300N106930134150,Umiak N-10,Abandoned,Imp.,1977-04-13,Kugmallit,4783.5,GSC-Arktis,,69.497185,-134.276414,False
-300N126920135150,Unipkat N-12,Gas and oil,Shell et al.,1990-02-06,Quaternary,1613.7,GSC-Arktis,Inconclusive,69.198465,-135.321545,False
+300N126920135150,Unipkat N-12,Gas and oil,Shell et al.,1990-02-06,Quaternary,1613.7,GSC-Arktis,Inconclusive,69.198084,-135.321453,False
 300N166930134150,Umiak N-16,Gas,MGM Energy Corp.,2004-02-18,Kugmallit,,GSC-Arktis,,69.431386,-134.31823,False
 300N176900133300,Parsons N-17,Gas,Gulf et al.,1975-12-18,Aklak,3207.6,GSC-Arktis,,68.947995,-133.569084,False
 300N176940134150,Ivik N-17,Abandoned,Imp.,1973-01-10,Mackenzie Bay,3042.7,GSC-Arktis,,69.614119,-134.323915,False
@@ -832,7 +832,7 @@ UWI,Name,Status,Operator,Spud_Date,Geologic_Formation,Depth,Data_Source,Leak_Det
 300N466910134450,Kikoralok N-46,Abandoned,Gulf et al.,1974-12-20,Iperk,1884.1,GSC-Arktis,,69.096022,-134.945203,False
 300O097000130300,Nuvorak O-09,Abandoned,I.O.E.,1970-03-12,Iperk,1156.4,GSC-Arktis,,69.981991,-130.518286,False
 300O136900135150,Kugpik O-13,Oil,Shell,1973-03-26,Iperk,3662.7,GSC-Arktis,,68.880445,-135.306826,False
-300O146910135450,Ellice O-14,Abandoned,I.O.E.,1969-11-19,Iperk,2901.3,GSC-Arktis,Inconclusive,69.065447,-135.807165,False
+300O146910135450,Ellice O-14,Abandoned,I.O.E.,1969-11-19,Iperk,2901.3,GSC-Arktis,Inconclusive,69.063625,-135.810405,False
 300O156910135000,Titalik O-15,Suspended,Shell et al.,1975-04-27,Iperk,3379.0,GSC-Arktis,,69.082686,-135.056038,False
 300O196920132450,Tuktu O-19,Abandoned,I.O.E.,1970-12-07,Aklak,2315.0,GSC-Arktis,,69.31525,-132.80745,False
 300O206850134450,Kipnik O-20,Abandoned,Shell,1974-07-14,Iperk,3489.8,GSC-Arktis,,68.833209,-134.807878,False
@@ -1218,7 +1218,7 @@ NAN_GSC_1,Kaglulik M-64,,Dome,1978-11-03,,144.5,GSC-LTLC,,70.56552777777777,-130
 300F297000134000,Itiginkpak F-29,Abandoned,DEVON ET AL,,Arctic Red,1753.6,GSC,,68.471643,-134.611404,False
 300E586920135000,Kumak E-58,Gas,Shell,,Iperk,1357.0,GSC,,69.291443,-135.251455,False
 300M156910135151,Kurk M-15,Suspended,,,Iperk,,GSC,,69.080819,-135.32596,False
-300H016920136000,Olivier H-01,Gas,,,Iperk,,GSC,Inconclusive,69.17178,-136.00678,False
+300H016920136000,Olivier H-01,Gas,,,Iperk,,GSC,Inconclusive,69.171727,-136.006676,False
 300D546830133300,Inuvik D-54,Abandoned,Amoco et al.,1969-01-01,Arctic Red,1560.8,GSC-OROGO,,68.38682,-133.742791,False
 300F176810135000,Aklavik F-17,Abandoned,Union,1973-01-01,Quaternary,891.4,GSC-OROGO,,68.105417,-135.069196,False
 300F386810135000,Aklavik F-38,Abandoned,Union,1973-01-01,Quaternary,2051.7,GSC-OROGO,,68.120692,-135.155591,False

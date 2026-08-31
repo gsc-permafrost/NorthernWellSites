@@ -325,8 +325,8 @@ Visits = Visits.set_index('UWI')
 
 WellSites['Leak_Detected'] = None
 for i,row in WellSites[WellSites.index.isin(Visits.index)].iterrows():
-    WellSites.loc[WellSites.index==i,['Latitude','Longitude','Leak_Detected']] = Visits.loc[Visits.index==i,['Latitude','Longitude','Leak_Detected']]
-
+    WellSites.loc[WellSites.index==i,['Latitude','Longitude','x','y','Leak_Detected']] = Visits.loc[Visits.index==i,['Latitude','Longitude','x','y','Leak_Detected']]
+    
 # breakpoint()
 
 WellSites = gpd.GeoDataFrame(WellSites,geometry=gpd.points_from_xy(x=WellSites['x'],y=WellSites['y']),crs='NAD1983').to_crs('EPSG:4326')
