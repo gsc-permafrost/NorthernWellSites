@@ -1,0 +1,368 @@
+﻿WELL_ID,WELL_NAME,OPERATOR,STATUS,LAND_TITLE,REGION,NAD_83_LAT,NAD_83_LON
+157,GRANDVIEW HILLS NO.1(A-47),Richfield Oil Corporation,Abandoned,1637,NWT Mainland,67.10333,-130.875
+178,PT. SEPARATION NO.1(A-05),Richfield Oil Corporation,Abandoned,1522,NWT Mainland,67.56833,-134.00278
+200,GRANDVIEW HILLS COREHOLE NO.1(J-34),Richfield Oil Corporation,Abandoned,1616,NWT Mainland,67.227778,-130.854444
+201,WINTER HARBOUR NO.1(A-09),Dome Petroleum Limited,Abandoned,A713,NWT Arctic Islands Onshore,74.80167,-110.51028
+211,NICHOLSON G-56,Texaco Canada Resources Ltd.,Abandoned,3090,NWT Mainland,69.92467,-128.97614
+212,NICHOLSON N-45,Texaco Canada Resources Ltd.,Abandoned,3090,NWT Mainland,69.91639,-128.93856
+221,ARCTIC CIRCLE ONTARATUE H-34,Suncor Energy Inc.,Abandoned,<Null>,NWT Mainland,66.38958,-132.09764
+248,CLARE F-79,Imperial Oil Enterprises Limited,Abandoned,3643,NWT Mainland,67.13889,-133.23889
+275,REINDEER D-27,British American Oil Company Ltd [The],Abandoned,1715,NWT Mackenzie Delta,69.10139,-134.615
+293,STONY I-50,Imperial Oil Enterprises Limited,Abandoned,3732,NWT Mainland,67.49556,-135.37944
+310,NEVEJO M-05,Imperial Oil Enterprises Limited,Abandoned,3622,NWT Mainland,67.24944,-134.02917
+317,MARTIN HOUSE L-50,Imperial Oil Enterprises Limited,Abandoned,3600,NWT Mainland,66.82833,-133.40083
+331,SWAN LAKE K-28,Imperial Oil Enterprises Limited,Abandoned,3637,NWT Mainland,67.12833,-133.57889
+346,TREE RIVER H-38,Imperial Oil Enterprises Limited,Abandoned,3650,NWT Mainland,67.28917,-132.35
+354,STONEY CORE HOLE F-52,Imperial Oil Enterprises Limited,Abandoned,3738,NWT Mainland,67.355555,-135.671944
+355,STONEY CORE HOLE F-42,Imperial Oil Enterprises Limited,Abandoned,3738,NWT Mainland,67.356389,-135.645278
+358,STONEY CORE HOLE 2F-52,Imperial Oil Enterprises Limited,Abandoned,3738,NWT Mainland,67.355833,-135.6725
+359,STONEY CORE HOLE C-02,Imperial Oil Enterprises Limited,Abandoned,3738,NWT Mainland,67.352778,-135.516667
+405,TUNUNUK K-10,Imperial Oil Enterprises Limited,Abandoned,1790,NWT Mackenzie Delta,68.99556,-134.77611
+407,CROSSLEY LK S K-60,Canadian Pacific Oil & Gas Limited,Abandoned,5199,NWT Mainland,68.49417,-129.48722
+419,TUK F-18,Imperial Oil Enterprises Limited,Abandoned,3828,NWT Mackenzie Delta,69.29139,-133.06694
+458,KUGALUK N-02,Canadian Pacific Oil & Gas Limited,Abandoned,4832,NWT Mainland,68.53194,-131.52194
+462,SANDY POINT L-46,Suncor Energy Inc.,Abandoned,<Null>,NWT Arctic Islands Onshore,76.42733,-115.30394
+463,ESKIMO J-07,Imperial Oil Enterprises Limited,Abandoned,3947,NWT Mackenzie Delta,69.27861,-132.51639
+467,INUVIK D-54,Amoco Canada Petroleum Company Ltd.,Abandoned,4260,NWT Mackenzie Delta,68.38689,-133.74022
+468,ATTOE LK. I-06,International Nuclear Corporation,Abandoned,3792,NWT Mainland,67.425,-133.25278
+470,MARIE BAY D-02,Suncor Energy Inc.,Abandoned,<Null>,NWT Arctic Islands Onshore,76.35031,-115.55867
+473,HORTON RIVER G-02,Elf Oil Exploration And Production Canada Ltd.,Abandoned,4001,NWT Mainland,69.85625,-127.26564
+475,ELLICE O-14,Imperial Oil Enterprises Limited,Abandoned,3847,NWT Mackenzie Delta,69.06556,-135.80444
+478,ATKINSON H-25,Esso Resources Canada Limited,Abandoned,3975,NWT Mackenzie Delta,69.73822,-131.83925
+496,THUNDER R. D-69,"Mobil Oil Canada, Ltd.",Abandoned,4444,NWT Mainland,67.63611,-130.21111
+519,NUVORAK O-09,Imperial Oil Enterprises Limited,Abandoned,3957,NWT Mackenzie Delta,69.98194,-130.51556
+520,NATAGNAK K-23,Imperial Oil Enterprises Limited,Abandoned,3967,NWT Mackenzie Delta,69.70861,-131.61222
+523,SHOLOKPAOQAK P-60,Gulf Canada Resources Inc.,Abandoned,1656,NWT Mackenzie Delta,68.6625,-133.716667
+532,CAPE NOREM A-80,Elf Oil Exploration And Production Canada Ltd.,Abandoned,A308,NWT Arctic Islands Onshore,77.48694,-110.45139
+533,NATAGNAK H-50,Imperial Oil Enterprises Limited,Abandoned,3967,NWT Mackenzie Delta,69.82417,-131.66972
+534,ATKINSON M-33,Imperial Oil Enterprises Limited,Abandoned,3975,NWT Mackenzie Delta,69.71333,-131.91194
+536,ONIGAT C-38,Gulf Canada Resources Inc.,Abandoned,1655,NWT Mackenzie Delta,68.786111,-133.654167
+540,HECLA J-60,Suncor Energy Inc.,Abandoned,<Null>,NWT Arctic Islands Offshore,76.32719,-110.33031
+546,AKLAVIK A-37,Shell Canada Resources Limited,Abandoned,1819,NWT Mackenzie Delta,68.27075,-135.12956
+554,WILKINS E-60,Elf Oil Exploration And Production Canada Ltd.,Abandoned,A-331,NWT Arctic Islands Onshore,77.98861,-111.3625
+557,RAT PASS K-35,Banff Oil Ltd,Abandoned,4649,NWT Mainland,67.91181,-135.36578
+559,TREE RIVER F-57,Shell Canada Resources Limited,Abandoned,6492,NWT Mainland,67.10756,-132.42789
+561,KITSON R. C-71,Sun Oil Company,Abandoned,A-791,NWT Arctic Islands Onshore,76.17014,-112.98219
+562,BEAVER HOUSE CREEK H-13,Shell Canada Resources Limited,Abandoned,5563,NWT Mackenzie Delta,68.37122,-135.55083
+566,TUKTU O-19,Imperial Oil Enterprises Limited,Abandoned,3948,NWT Mackenzie Delta,69.31528,-132.80472
+573,TREELESS CREEK I-51,Banff Oil Ltd,Abandoned,4649,NWT Mainland,67.845,-135.40778
+574,MAGAK A-32,Imperial Oil Enterprises Limited,Abandoned,3971,NWT Mackenzie Delta,69.51917,-132.12556
+575,ARCTIC RED RIVER O-27,Shell Canada Resources Limited,Abandoned,6478,NWT Mainland,66.78222,-132.82664
+584,ATIGI G-04,Gulf Canada Resources Inc.,Abandoned,1658,NWT Mackenzie Delta,68.88775,-133.767583
+592,TENLEN A-73,Central Del-Rio Oils Limited,Abandoned,4879,NWT Mainland,67.86875,-130.72267
+598,TREE RIVER EAST H-57,Shell Canada Resources Limited,Abandoned,6492,NWT Mainland,67.10756,-132.41117
+603,KANGUK I-24,Imperial Oil Enterprises Limited,Abandoned,3968,NWT Mackenzie Delta,69.89444,-131.08667
+620,JAMESON BAY C-31,Elf Oil Exploration And Production Canada Ltd.,Abandoned,A1343,NWT Arctic Islands Onshore,76.67,-116.72928
+622,TAGLU G-33,Esso Resources Canada Limited,Abandoned,3837,NWT Mackenzie Delta,69.37164,-134.89353
+629,ARCTIC RED WEST G-55,Shell Canada Resources Limited,Abandoned,6479,NWT Mainland,66.74114,-133.16617
+631,MAYOGIAK J-17,Imperial Oil Limited,Abandoned,3950,NWT Mackenzie Delta,69.445,-132.80344
+639,IKHIL A-01,Gulf Canada Resources Inc.,Abandoned,1695,NWT Mackenzie Delta,68.670278,-134.008611
+651,SATELLITE F-68,B P O G Operations Limited,Abandoned,A227,NWT Arctic Islands Onshore,77.29083,-116.91944
+654,STORKERSON BAY A-15,Elf Oil Exploration And Production Canada Ltd.,Abandoned,A1918,NWT Arctic Islands Onshore,72.9,-124.55806
+657,BROCK C-50,Suncor Energy Inc.,Abandoned,<Null>,NWT Arctic Islands Onshore,77.81669,-114.29003
+666,PIKIOLIK E-54,Imperial Oil Limited,Abandoned,3949,NWT Mackenzie Delta,69.3875,-132.74306
+667,TAGLU WEST P-03,Esso Resources Canada Limited,Abandoned,3838,NWT Mackenzie Delta,69.381944,-135.006667
+670,KIMIK D-29,Imperial Oil Limited,Abandoned,3972,NWT Mackenzie Delta,69.63472,-132.36944
+671,PARSONS F-09,Gulf Canada Resources Inc.,Abandoned,1654,NWT Mackenzie Delta,68.97447,-133.52933
+672,PIKIOLIK M-26,Imperial Oil Limited,Abandoned,3949,NWT Mackenzie Delta,69.43194,-132.62389
+673,MALLIK L-38,Esso Resources Canada Limited,Abandoned,3836,NWT Mackenzie Delta,69.46222,-134.65694
+678,MCPHERSON B-25,Unocal Canada Limited,Abandoned,6239,NWT Mainland,67.23356,-135.57289
+682,SAINVILLE RIVER K-63,Shell Canada Resources Limited,Abandoned,6475,NWT Mainland,66.37692,-133.20431
+686,NANUK D-76,Elf Oil Exploration And Production Canada Ltd.,Abandoned,A1412,NWT Arctic Islands Onshore,73.08694,-123.39583
+689,A-1 CRANSWICK A-22,Amoco Canada Petroleum Company Ltd.,Abandoned,6195,NWT Mainland,65.51694,-131.81528
+693,KILAGMIOTAK F-48,Gulf Canada Resources Inc.,Abandoned,1691,NWT Mackenzie Delta,69.45806,-134.1975
+713,UMINMAK H-07,Elf Oil Exploration And Production Canada Ltd.,Abandoned,A1401,NWT Arctic Islands Onshore,73.60806,-123.00833
+715,TAGLU D-55,Imperial Oil Limited,Abandoned,3837,NWT Mackenzie Delta,69.40389,-134.99278
+716,IVIK J-26,Imperial Oil Resources Limited,Abandoned,3841,NWT Mackenzie Delta,69.595,-134.34389
+717,FT. MCPHERSON C-78,Skelly Oil of Canada Ltd,Abandoned,6247,NWT Mainland,67.61778,-134.23889
+719,BROCK I-20,Suncor Energy Inc.,Abandoned,<Null>,NWT Arctic Islands Onshore,77.99444,-114.56417
+722,MALLIK A-06,Esso Resources Canada Limited,Abandoned,3836,NWT Mackenzie Delta,69.41694,-134.50444
+727,TAGLU C-42,Imperial Oil Limited,Abandoned,3837,NWT Mackenzie Delta,69.35139,-134.94722
+728,ATERTAK E-41,Imperial Oil Limited,Abandoned,3973,NWT Mackenzie Delta,69.5075,-132.70222
+730,SIKU C-55,Gulf Canada Resources Inc.,Abandoned,1653,NWT Mackenzie Delta,69.06778,-133.73275
+742,UNIPKAT I-22,Shell Canada Resources Limited,Abandoned,1788,NWT Mackenzie Delta,69.19372,-135.34094
+744,DUNDAS C-80,Suncor Energy Inc.,Abandoned,<Null>,NWT Arctic Islands Onshore,74.65056,-113.38328
+751,TITALIK K-26,Shell Canada Resources Limited,Abandoned,3844,NWT Mackenzie Delta,69.09167,-135.10417
+753,NIGLINTGAK H-30,Shell Canada Resources Limited,Abandoned,1788,NWT Mackenzie Delta,69.32256,-135.34314
+754,EAST HECLA F-62,Suncor Energy Inc.,Abandoned,<Null>,NWT Arctic Islands Offshore,76.35442,-110.41069
+760,YA-YA P-53,Gulf Oil Canada Limited,Abandoned,1714,NWT Mackenzie Delta,69.21272,-134.71383
+761,AKKU F-14,Esso Resources Canada Limited,Abandoned,3943,NWT Mackenzie Delta,69.3875,-132.31889
+762,EMERALD K-33,B P O G Operations Limited,Abandoned,A76,NWT Arctic Islands Onshore,76.71194,-113.7225
+763,STONY G-06,Dome Petroleum Limited,Abandoned,4206,NWT Mainland,67.59111,-135.26389
+764,NUKTAK C-22,Imperial Oil Limited,Abandoned,W1050,Beaufort Sea,69.68528,-134.85833
+766,UMIAK J-37,Imperial Oil Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.443333,-134.385556
+767,IVIK C-52,Imperial Oil Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.51944,-134.48111
+769,SOUTH DELTA J-80,Bluemont Resources Ltd.,Abandoned,3808,NWT Mainland,67.66122,-134.72733
+773,MALLIK P-59,Imperial Oil Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.48028,-134.7125
+775,ORKSUT I-44,Deminex Canada Limited,Abandoned,A2365,NWT Arctic Islands Onshore,72.39575,-122.70244
+777,AKLAVIK F-17,Unocal Canada Limited,Abandoned,3880,NWT Mackenzie Delta,68.10556,-135.06667
+779,IVIK N-17,Imperial Oil Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.61417,-134.32111
+780,INTREPID INLET H-49,Elf Oil Exploration And Production Canada Ltd.,Abandoned,A1340,NWT Arctic Islands Onshore,76.97406,-118.751
+789,KANGUK F-42,Imperial Oil Limited,Abandoned,3968,NWT Mackenzie Delta,69.85722,-131.18917
+797,UPLUK C-21,Chevron Canada Resources Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.335,-135.35694
+799,HECLA I-69,Suncor Energy Inc.,Abandoned,<Null>,NWT Arctic Islands Offshore,76.31017,-110.38756
+800,PARSONS N-10,Gulf Canada Resources Inc.,Abandoned,1654,NWT Mackenzie Delta,68.99681,-133.53056
+806,NATAGNAK K-53,Imperial Oil Limited,Abandoned,3967,NWT Mackenzie Delta,69.71083,-131.73194
+807,WELDON CREEK O-65,Inexco Oil Company,Abandoned,3404,NWT Mainland,66.07917,-132.45028
+814,REINDEER C-36,Gulf Canada Resources Inc.,Abandoned,1715,NWT Mackenzie Delta,69.086083,-134.654167
+815,SOUTH RAMPARTS I-77,Candel Oil Ltd.,Abandoned,4431,NWT Mainland,65.44222,-130.97167
+817,AKLAVIK F-38,Unocal Canada Limited,Abandoned,3880,NWT Mackenzie Delta,68.12083,-135.15306
+819,TAGLU D-43,Imperial Oil Limited,Abandoned,99672,NWT Mackenzie Delta,69.3705,-134.95011
+820,AMAGUK H-16,Elf Oil Exploration And Production Canada Ltd.,Abandoned,3961,NWT Mackenzie Delta,69.59,-131.04778
+821,KUGPIK O-13,Shell Canada Resources Limited,Abandoned,<Null>,NWT Mackenzie Delta,68.880555,-135.304167
+825,IVIK K-54,Imperial Oil Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.56,-134.48361
+826,SOUTH PEEL D-64,Dome Petroleum Limited,Abandoned,3568,NWT Mainland,65.88444,-132.46389
+828,LANGLEY E-29,Imperial Oil Limited,Abandoned,3848,NWT Mackenzie Delta,69.30806,-135.61556
+829,ANDREASEN L-32,Elf Oil Exploration And Production Canada Ltd.,Abandoned,A1669,NWT Arctic Islands Onshore,77.19375,-118.23733
+830,IKHIL I-37,Gulf Canada Resources Inc.,Abandoned,1695,NWT Mackenzie Delta,68.77611,-134.13056
+833,WAGNARK G-12,Imperial Oil Limited,Abandoned,3829,NWT Mackenzie Delta,69.18917,-133.30389
+838,KUMAK C-58,Shell Canada Resources Limited,Abandoned,P1787,NWT Mackenzie Delta,69.285,-135.23167
+841,ZEUS F-11,Suncor Energy Inc.,Abandoned,<Null>,NWT Arctic Islands Onshore,75.83961,-113.60681
+843,APOLLO C-73,Suncor Energy Inc.,Abandoned,<Null>,NWT Arctic Islands Onshore,75.53333,-111.98278
+845,KILIGVAK I-29,Elf Oil Exploration And Production Canada Ltd.,Abandoned,W3281,NWT Mackenzie Delta,69.47722,-131.33778
+863,IMMERK B-48,Imperial Oil Limited,Abandoned,W1031,Beaufort Sea,69.61897,-135.18075
+876,UNAK B-11,Shell Canada Resources Limited,Abandoned,1798,NWT Mackenzie Delta,68.66933,-135.31122
+879,KUMAK J-06,Shell Canada Resources Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.26,-135.01606
+882,TOAPOLOK O-54,Gulf Canada Resources Inc.,Abandoned,<Null>,NWT Mackenzie Delta,69.23264,-134.97525
+887,ATKINSON A-55,Imperial Oil Limited,Abandoned,3975,NWT Mackenzie Delta,69.73583,-131.965
+888,REINDEER A-41,Gulf Canada Resources Inc.,Abandoned,<Null>,NWT Mackenzie Delta,69.00333,-134.67194
+889,PARSONS P-53,Gulf Canada Resources Inc.,Abandoned,<Null>,NWT Mackenzie Delta,68.88036,-133.71592
+891,NUNA A-32,Imperial Oil Limited,Abandoned,3827,NWT Mackenzie Delta,69.02056,-133.37611
+892,ADGO F-28,Imperial Oil Limited,Abandoned,W1020,Beaufort Sea,69.45461,-135.85439
+893,TIRITCHIK M-48,Elf Oil Exploration And Production Canada Ltd.,Abandoned,A1448,NWT Arctic Islands Onshore,72.7975,-120.74667
+894,ATIGI O-48,Gulf Canada Resources Inc.,Abandoned,1658,NWT Mackenzie Delta,68.96333,-133.93528
+895,SAINVILLE RIVER D-08,Suncor Energy Inc.,Abandoned,<Null>,NWT Mainland,66.28528,-133.5275
+904,WOLVERINE H-34,Unocal Canada Limited,Abandoned,4479,NWT Mainland,68.38861,-130.63333
+906,RUSSELL H-23,Imperial Oil Limited,Abandoned,4256,NWT Mackenzie Delta,70.03833,-130.10778
+908,IKKARIKTOK M-64,Columbia Gas Development Of Canada Ltd.,Abandoned,A2363,NWT Arctic Islands Onshore,72.39647,-121.84967
+909,YA-YA A-28,Gulf Canada Resources Inc.,Abandoned,<Null>,NWT Mackenzie Delta,69.28639,-134.59083
+913,WEST HECLA N-52,Suncor Energy Inc.,Abandoned,<Null>,NWT Arctic Islands Offshore,76.36478,-110.84806
+917,PARSONS O-27,Gulf Canada Resources Inc.,Abandoned,<Null>,NWT Mackenzie Delta,68.94806,-133.59889
+919,MAYOGIAK L-39,Imperial Oil Limited,Abandoned,3950,NWT Mackenzie Delta,69.47806,-132.90833
+920,AMAROK N-44,Imperial Oil Limited,Abandoned,3958,NWT Mackenzie Delta,69.89972,-130.93778
+921,NAPOIAK F-31,Shell Canada Resources Limited,Abandoned,1811,NWT Mackenzie Delta,68.34028,-134.89694
+923,TOAPOLOK H-24,Gulf Canada Resources Inc.,Abandoned,<Null>,NWT Mackenzie Delta,69.22167,-134.84028
+924,PULLEN E-17,Imperial Oil Limited,Abandoned,W1048,Beaufort Sea,69.77111,-134.32806
+933,NIGLINTGAK M-19,Shell Canada Resources Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.313611,-135.323889
+934,EGLINTON P-24,Suncor Energy Inc.,Abandoned,<Null>,NWT Arctic Islands Onshore,75.89806,-118.1275
+939,KIPNIK O-20,Shell Canada Resources Limited,Abandoned,1796,NWT Mackenzie Delta,68.83331,-134.80525
+943,SMOKING HILLS A-23,Suncor Energy Inc.,Abandoned,<Null>,NWT Mainland,69.36833,-126.34167
+950,UNARK L-24,Sun Oil Company,Abandoned,W947,Beaufort Sea,69.558389,-134.616694
+951,PELLY B-35,Sun Oil Company,Abandoned,W948,Beaufort Sea,69.56972,-135.39092
+955,PEDDER POINT D-49,Suncor Energy Inc.,Abandoned,<Null>,NWT Arctic Islands Onshore,75.63583,-118.80444
+958,YA-YA M-33,Gulf Canada Resources Inc.,Abandoned,<Null>,NWT Mackenzie Delta,69.21583,-134.66222
+959,YA-YA I-17,Gulf Canada Resources Inc.,Abandoned,<Null>,NWT Mackenzie Delta,69.27639,-134.54694
+960,KAMIK D-58,Gulf Canada Resources Inc.,Abandoned,<Null>,NWT Mackenzie Delta,68.95367,-133.49761
+962,KUSRHAAK D-16,Elf Oil Exploration And Production Canada Ltd.,Abandoned,<Null>,NWT Arctic Islands Onshore,73.41778,-120.08833
+964,KIKORALOK N-46,Gulf Canada Resources Inc.,Abandoned,<Null>,NWT Mackenzie Delta,69.09611,-134.9425
+965,IMNAK J-29,Dome Petroleum Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.14472,-133.10139
+968,KAPIK J-39,Imperial Oil Limited,Abandoned,3955,NWT Mackenzie Delta,69.97556,-130.13611
+969,ADGO P-25,Imperial Oil Limited,Abandoned,W1020,Beaufort Sea,69.41583,-135.84167
+970,NETSERK B-44,Imperial Oil Limited,Abandoned,<Null>,Beaufort Sea,69.55083,-135.93269
+974,VICTORIA ISLAND F-36,Murphy Oil Company Ltd.,Abandoned,A2590,NWT Arctic Islands Onshore,72.755,-117.18694
+975,CASTEL BAY C-68,Suncor Energy Inc.,Abandoned,<Null>,NWT Arctic Islands Onshore,74.11972,-120.83306
+976,KUGPIK L-24,Shell Canada Resources Limited,Abandoned,<Null>,NWT Mackenzie Delta,68.89208,-135.37031
+977,UPLUK M-38,Chevron Canada Resources Limited,Abandoned,3853,NWT Mackenzie Delta,69.46556,-135.415
+980,LOUTH K-45,Imperial Oil Limited,Abandoned,3969,NWT Mackenzie Delta,69.90889,-131.44639
+981,OGEOQEOQ J-06,Gulf Canada Resources Inc.,Abandoned,<Null>,NWT Mackenzie Delta,68.76167,-133.76667
+982,RED FOX P-21,Gulf Canada Resources Inc.,Abandoned,1652,NWT Mackenzie Delta,69.18,-133.58361
+983,KUMAK K-16,Shell Canada Resources Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.259139,-135.066167
+984,KILAGMIOTAK M-16,Gulf Canada Resources Inc.,Abandoned,<Null>,NWT Mackenzie Delta,69.43111,-134.075
+990,WILKIE POINT J-51,Elf Oil Exploration And Production Canada Ltd.,Abandoned,A1349,NWT Arctic Islands Onshore,76.50861,-117.33
+991,KAMIK L-60,Gulf Canada Resources Inc.,Abandoned,<Null>,NWT Mackenzie Delta,68.99464,-133.49003
+992,PARSONS A-44,Gulf Canada Resources Inc.,Abandoned,<Null>,NWT Mackenzie Delta,68.88472,-133.67667
+993,ADGO C-15,Imperial Oil Limited,Abandoned,1020,Beaufort Sea,69.40361,-135.8175
+995,TITALIK O-15,Shell Canada Resources Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.08278,-135.05333
+1000,IKATTOK J-17,Imperial Oil Limited,Abandoned,W1015,Beaufort Sea,69.27794,-136.30361
+1006,GARRY P-04,Sun Oil Company,Abandoned,W949,NWT Mackenzie Delta,69.39606,-135.50539
+1009,NIGLINTGAK B-19,Shell Canada Resources Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.30306,-135.30528
+1010,NORTH ELLICE J-23,Standard Oil Company Of British Columbia Ltd.,Abandoned,W905,NWT Mackenzie Delta,69.20944,-135.85389
+1011,SABINE BAY A-07,Suncor Energy Inc.,Abandoned,<Null>,NWT Arctic Islands Onshore,75.435,-110.01389
+1012,DYER BAY L-49,Elf Oil Exploration And Production Canada Ltd.,Abandoned,A1700,NWT Arctic Islands Onshore,76.14319,-121.81022
+1013,EAST HECLA C-32,Suncor Energy Inc.,Abandoned,<Null>,NWT Arctic Islands Onshore,76.35261,-110.2295
+1014,NETSERK F-40,Esso Resources Canada Limited,Abandoned,<Null>,Beaufort Sea,69.65639,-135.90583
+1015,BAR HARBOUR E-76,Suncor Energy Inc.,Abandoned,<Null>,NWT Arctic Islands Onshore,74.2575,-123.89722
+1016,PARSONS L-43,Gulf Canada Resources Inc.,Abandoned,<Null>,NWT Mackenzie Delta,68.87742,-133.69894
+1017,PARSONS N-17,Gulf Canada Resources Inc.,Abandoned,<Null>,NWT Mackenzie Delta,68.94806,-133.56639
+1018,KAMIK D-48,Gulf Canada Resources Inc.,Abandoned,<Null>,NWT Mackenzie Delta,68.9535,-133.45831
+1019,SIKU C-11,Gulf Canada Resources Inc.,Abandoned,<Null>,NWT Mackenzie Delta,69.001361,-133.563861
+1020,WEST HECLA P-62,Suncor Energy Inc.,Abandoned,<Null>,NWT Arctic Islands Offshore,76.36417,-110.87639
+1024,NORTHWEST HECLA M-25,Suncor Energy Inc.,Abandoned,<Null>,NWT Arctic Islands Offshore,76.41511,-111.187
+1025,ULU A-35,Shell Canada Resources Limited,Abandoned,P1800,NWT Mackenzie Delta,68.73389,-135.8825
+1028,SARPIK B-35,Imperial Oil Limited,Abandoned,W1022,Beaufort Sea,69.40194,-136.38611
+1029,TUNUNUK F-30,Gulf Oil Canada Limited,Abandoned,1716,NWT Mackenzie Delta,68.98944,-134.61194
+1030,WAGNARK C-23,Imperial Oil Limited,Abandoned,3829,NWT Mackenzie Delta,69.20028,-133.3625
+1031,SIKU A-12,Gulf Canada Resources Inc.,Abandoned,<Null>,NWT Mackenzie Delta,69.01675,-133.54208
+1032,PARSONS D-20,Gulf Canada Resources Inc.,Abandoned,<Null>,NWT Mackenzie Delta,68.98592,-133.57356
+1033,WEST HECLA C-05,Suncor Energy Inc.,Abandoned,<Null>,NWT Arctic Islands Offshore,76.4025,-110.53194
+1040,KOPANOAR D-14,"Hunt,Lamar",Abandoned,A2028,Beaufort Sea,70.38367,-135.09194
+1041,TINGMIARK K-91,Dome Petroleum Limited,Abandoned,<Null>,Beaufort Sea,70.17672,-132.98228
+1042,NEKTORALIK K-59,Dome Petroleum Limited,Abandoned,A2225,Beaufort Sea,70.47633,-136.28078
+1046,KOPANOAR M-13,Dome Petroleum Limited,Abandoned,A2028,Beaufort Sea,70.38197,-135.09275
+1047,KUGMALLIT H-59,Imperial Oil Limited,Abandoned,W1027,Beaufort Sea,69.63931,-133.46358
+1048,ARNAK L-30,Imperial Oil Limited,Abandoned,W1046,Beaufort Sea,69.82903,-133.87253
+1050,TULLUGAK K-31,Shell Canada Resources Limited,Abandoned,<Null>,NWT Mackenzie Delta,68.84167,-135.15603
+1051,UNARK 2L-24,Sun Oil Company,Abandoned,W947,Beaufort Sea,69.55844,-134.61711
+1054,TAGLU H-54,Imperial Oil Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.38889,-134.96833
+1055,KAMIK F-38,Gulf Canada Resources Inc.,Abandoned,1670,NWT Mackenzie Delta,68.95636,-133.39847
+1056,KURK M-39,Imperial Oil Limited,Abandoned,3845,NWT Mackenzie Delta,69.14861,-135.415
+1057,PARSONS L-37,Gulf Oil Canada Limited,Abandoned,1654,NWT Mackenzie Delta,68.94519,-133.66519
+1058,PARSONS P-41,Gulf Canada Resources Inc.,Abandoned,1654,NWT Mackenzie Delta,68.84744,-133.67453
+1059,UPLUK A-42,Chevron Canada Resources Limited,Abandoned,3853,NWT Mackenzie Delta,69.35306,-135.42611
+1064,KUMAK E-58,Shell Canada Resources Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.29153,-135.24869
+1066,SADENE D-02,"Mobil Oil Canada, Ltd.",Abandoned,5632,NWT Mainland,68.85028,-126.7875
+1067,KANNERK G-42,Imperial Oil Limited,Abandoned,W2295,Beaufort Sea,70.02331,-131.21558
+1068,SOUTHWEST HECLA C-58,Suncor Energy Inc.,Abandoned,<Null>,NWT Arctic Islands Offshore,76.28464,-111.348
+1070,UMIAK N-10,Imperial Oil Limited,Abandoned,3835,NWT Mackenzie Delta,69.49722,-134.27361
+1071,SIKU E-21,Gulf Canada Resources Inc.,Abandoned,1653,NWT Mackenzie Delta,69.00814,-133.61525
+1072,OGRUKNANG M-31,Gulf Canada Resources Inc.,Abandoned,1697,NWT Mackenzie Delta,68.84781,-134.41403
+1073,DEPOT ISLAND C-44,Suncor Energy Inc.,Abandoned,<Null>,NWT Arctic Islands Onshore,76.38736,-114.29575
+1075,FISH RIVER B-60,Chevron Canada Resources Limited,Abandoned,1753,NWT Mackenzie Delta,68.65083,-136.2275
+1076,UKALERK C-50,Dome Petroleum Limited,Abandoned,A4689,Beaufort Sea,70.15156,-132.73569
+1077,KAGLULIK A-75,Dome Petroleum Limited,Abandoned,A2015,Beaufort Sea,70.56861,-130.85611
+1079,NERLERK M-98,Dome Petroleum Limited,Abandoned,A2023,Beaufort Sea,70.46322,-133.49564
+1083,ISSERK E-27,Imperial Oil Limited,Abandoned,W1070,Beaufort Sea,69.93889,-134.36967
+1084,MALLIK J-37,Imperial Oil Limited,Abandoned,A697,NWT Mackenzie Delta,69.44389,-134.63972
+1088,GARRY G-07,Sun Oil Company,Abandoned,W949,NWT Mackenzie Delta,69.43972,-135.51556
+1092,GRASSY I-34,Suncor Energy Inc.,Abandoned,<Null>,NWT Arctic Islands Offshore,76.39539,-113.18956
+1099,NATSEK E-56,Dome Petroleum Limited,Abandoned,W2202,Beaufort Sea,69.75594,-139.74292
+1100,UKALERK 2C-50,Dome Petroleum Limited,Abandoned,A4689,Beaufort Sea,70.15147,-132.72978
+1105,TARSIUT A-25,Dome Petroleum Limited,Abandoned,W2244,Beaufort Sea,69.90303,-136.33897
+1107,HEARNE F-85,Dome Petroleum Limited,Abandoned,A713,NWT Arctic Islands Onshore,74.73775,-110.93275
+1108,KAGLULIK M-64,Dome Petroleum Limited,Abandoned,A2015,Beaufort Sea,70.56553,-130.84292
+1113,PARKER RIVER J-72,Chevron Canada Resources Limited,Abandoned,A2646,NWT Arctic Islands Onshore,73.52836,-115.87361
+1116,NAPARTOK M-01,Imperial Oil Limited,Abandoned,3823,NWT Mackenzie Delta,68.51306,-134.53833
+1117,HAZEN F-54,Phillips Petroleum Canada Ltd.,Abandoned,A2712,NWT Arctic Islands Offshore,77.05456,-110.35389
+1123,ADGO J-27,Esso Resources Canada Limited,Abandoned,W1020,Beaufort Sea,69.44178,-135.84747
+1132,NORTH DUNDAS N-82,Dome Petroleum Limited,Abandoned,1843,NWT Arctic Islands Onshore,74.69658,-113.42808
+1141,KENALOOAK J-94,Dome Petroleum Limited,Abandoned,A2235,Beaufort Sea,70.72889,-133.97436
+1143,KOPANOAR L-34,Dome Petroleum Limited,Abandoned,A2028,Beaufort Sea,70.39372,-135.19928
+1145,KOAKOAK O-22,Dome Petroleum Limited,Abandoned,A2026,Beaufort Sea,70.36517,-134.11333
+1146,KOPANOAR 2L-34,Dome Petroleum Limited,Abandoned,A2028,Beaufort Sea,70.39489,-135.19919
+1152,MAYOGIAK M-16,Imperial Oil Limited,Abandoned,3950,NWT Mackenzie Delta,69.43203,-132.82497
+1157,ISSUNGNAK O-61,Imperial Oil Limited,Abandoned,W2285,Beaufort Sea,70.01681,-134.31331
+1166,KILANNAK A-77,Dome Petroleum Limited,Abandoned,A2249,Beaufort Sea,70.77042,-129.35725
+1168,ORVILRUK O-03,Dome Petroleum Limited,Abandoned,A2222,Beaufort Sea,70.37997,-136.51458
+1169,KOPANOAR I-44,Dome Petroleum Limited,Abandoned,A2028,Beaufort Sea,70.39542,-135.20072
+1171,KOPANOAR 2I-44,Dome Petroleum Limited,Abandoned,A2028,Beaufort Sea,70.39544,-135.20342
+1178,ISSUNGNAK 2O-61,Imperial Oil Limited,Abandoned,W2285,Beaufort Sea,70.01669,-134.31344
+1191,NORTH ISSUNGNAK L-86,Gulf Canada Resources Inc.,Abandoned,W2285,Beaufort Sea,70.092389,-134.445917
+1192,ALERK P-23,Imperial Oil Limited,Abandoned,W1064,Beaufort Sea,69.8825,-132.83944
+1193,IRKALUK B-35,Dome Petroleum Limited,Abandoned,A2226,Beaufort Sea,70.56806,-134.17019
+1197,MUSKOX D-87,Chevron Canada Resources Limited,Abandoned,1955,NWT Arctic Islands Onshore,73.60225,-117.449972
+1201,EAST TARSIUT N-44,Gulf Canada Resources Inc.,Abandoned,A2243,Beaufort Sea,69.89614,-136.19347
+1210,WEST ATKINSON L-17,Imperial Oil Limited,Abandoned,W1039,Beaufort Sea,69.77608,-132.07567
+1212,EAST TARSIUT N-44A,Gulf Canada Resources Inc.,Abandoned,A2243,Beaufort Sea,69.89692,-136.19411
+1219,KIGGAVIK A-43,Gulf Canada Resources Inc.,Abandoned,W2242,Beaufort Sea,69.86953,-135.92142
+1233,AIVERK I-45,Dome Petroleum Limited,Abandoned,A2025,Beaufort Sea,70.41119,-133.70008
+1240,AIVERK 2I-45,Dome Petroleum Limited,Abandoned,A2025,Beaufort Sea,70.41225,-133.70544
+1242,ITIYOK I-27,Imperial Oil Limited,Abandoned,W1068,Beaufort Sea,69.94442,-134.08867
+1244,UVILUK P-66,Dome Petroleum Limited,Abandoned,<Null>,Beaufort Sea,70.26344,-132.31328
+1254,NATAGNAK O-59,Imperial Oil Limited,Abandoned,3967,NWT Mackenzie Delta,69.81567,-131.72225
+1274,PIKIOLIK G-21,Home Oil Company Limited,Abandoned,3949,NWT Mackenzie Delta,69.33983,-132.59544
+1307,NATIAK O-44,Dome Petroleum Limited,Abandoned,W2318,Beaufort Sea,70.06594,-137.2185
+1308,HAVIK B-41,Dome Petroleum Limited,Abandoned,<Null>,Beaufort Sea,70.33642,-132.21819
+1311,SIULIK I-05,Dome Petroleum Limited,Abandoned,EA153,Beaufort Sea,70.41039,-134.51097
+1314,ARLUK E-90,Dome Petroleum Limited,Abandoned,EA153,Beaufort Sea,70.32336,-135.44325
+1320,PITSIULAK A-05,Gulf Canada Resources Inc.,Abandoned,W2246,Beaufort Sea,69.90394,-136.75953
+1327,KADLUK O-07,Imperial Oil Limited,Abandoned,<Null>,Beaufort Sea,69.78008,-136.02125
+1330,AMAULIGAK I-44,Gulf Canada Resources Inc.,Abandoned,<Null>,Beaufort Sea,70.058611,-133.7125
+1337,KOGYUK N-67,Gulf Canada Resources Inc.,Abandoned,W4688,Beaufort Sea,70.11372,-133.32822
+1340,AMAULIGAK J-44,Gulf Canada Resources Inc.,Abandoned,EA148,Beaufort Sea,70.05883,-133.71267
+1342,TUK L-09,Imperial Oil Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.31239,-133.03692
+1350,NUNA A-10,Imperial Oil Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.15011,-133.25119
+1438,AMERK O-09,Imperial Oil Limited,Abandoned,EA106,Beaufort Sea,69.98233,-133.51478
+1443,WEST TARSIUT P-45,Gulf Canada Resources Inc.,Abandoned,W2244,Beaufort Sea,69.91544,-136.418
+1444,NERLERK J-67,Dome Petroleum Limited,Abandoned,EA153,Beaufort Sea,70.44497,-133.32475
+1445,ADGO H-29,Imperial Oil Limited,Abandoned,<Null>,Beaufort Sea,69.47294,-135.83953
+1447,NIPTERK L-19,Imperial Oil Limited,Abandoned,<Null>,Beaufort Sea,69.81061,-135.33153
+1450,AKPAK P-35,Gulf Canada Resources Inc.,Abandoned,EA148,Beaufort Sea,70.24786,-134.15664
+1474,TUK J-29,Imperial Oil Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.3115,-133.09731
+1483,ONIGAT D-52,Gulf Canada Resources Inc.,Abandoned,<Null>,NWT Mackenzie Delta,68.68356,-133.73997
+1493,SHAKGATLATACHIG D-50,Gulf Canada Resources Inc.,Abandoned,EA224,NWT Mackenzie Delta,68.652,-133.95231
+1499,ITKRILEK B-52,Imperial Oil Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.5205,-131.97553
+1500,UPLUK L-42,Chevron Canada Resources Limited,Abandoned,EA228,NWT Mackenzie Delta,69.3605,-135.45817
+1501,TAGLU WEST H-06,Imperial Oil Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.42347,-135.00822
+1508,TUK H-30,Imperial Oil Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.32242,-133.08717
+1509,NIPTERK L-19A,Imperial Oil Limited,Abandoned,<Null>,Beaufort Sea,69.81058,-135.29819
+1525,AKPAK 2P-35,Gulf Canada Resources Inc.,Abandoned,EA148,Beaufort Sea,70.24789,-134.15636
+1533,ADLARTOK P-09,Dome Petroleum Limited,Abandoned,EA156,Beaufort Sea,69.64761,-137.75792
+1534,EDLOK M-56,Dome Petroleum Limited,Abandoned,EA151,Beaufort Sea,69.76408,-140.23983
+1542,AMAULIGAK I-65,Gulf Canada Resources Inc.,Abandoned,PL002,Beaufort Sea,70.07769,-133.80456
+1547,ADGO G-24,Imperial Oil Limited,Abandoned,<Null>,Beaufort Sea,69.39133,-135.84717
+1553,AAGNERK E-56,Gulf Canada Resources Inc.,Abandoned,EL148,Beaufort Sea,69.75456,-136.99883
+1560,MINUK I-53,Imperial Oil Limited,Abandoned,EA104,Beaufort Sea,69.70964,-136.45886
+1561,TUKTUK A-12,Imperial Oil Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.35039,-133.04961
+1562,TUK G-39,Imperial Oil Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.30639,-133.14525
+1563,TUK B-40,Imperial Oil Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.32047,-133.13883
+1570,PARSONS E-02,Gulf Canada Resources Inc.,Abandoned,<Null>,NWT Mackenzie Delta,68.85436,-133.53619
+1576,TUKTUK H-22,Imperial Oil Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.35611,-133.08389
+1581,TUK G-48,Imperial Oil Limited,Abandoned,EA102,NWT Mackenzie Delta,69.28978,-133.18392
+1586,NORTH ELLICE L-39,Chevron Canada Resources Limited,Abandoned,<Null>,Beaufort Sea,69.31203,-135.91661
+1588,AMAULIGAK I-65A,Gulf Canada Resources Inc.,Abandoned,<Null>,Beaufort Sea,70.07769,-133.80456
+1592,ONIGAT K-49,Gulf Canada Resources Inc.,Abandoned,EA225,NWT Mackenzie Delta,68.81117,-133.69633
+1594,TUKTUK D-11,Imperial Oil Limited,Abandoned,EA102,NWT Mackenzie Delta,69.33656,-133.07792
+1597,HANSEN G-07,Imperial Oil Limited,Abandoned,EA105,NWT Mackenzie Delta,69.60572,-134.01997
+1599,MAYOGIAK N-34,Imperial Oil Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.39992,-132.90094
+1603,MAYOGIAK G-12,Imperial Oil Limited,Abandoned,EA102,NWT Mackenzie Delta,69.35475,-132.81081
+1606,IKHIL K-35,Utility Group Facilities Inc.,Producer,<Null>,NWT Mackenzie Delta,68.74547,-134.15447
+1609,WAGNARK L-36,Imperial Oil Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.26208,-133.41497
+1611,NUNA E-40,Imperial Oil Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.15439,-133.41222
+1612,AMAULIGAK I-65B,Gulf Canada Resources Inc.,Abandoned,<Null>,Beaufort Sea,70.07769,-133.80456
+1615,ATERTAK K-31,Imperial Oil Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.50956,-132.65206
+1619,ARNAK K-06,Imperial Oil Limited,Abandoned,EA105,Beaufort Sea,69.76122,-133.77236
+1623,UNAK L-28,Shell Canada Resources Limited,Abandoned,EA222,NWT Mackenzie Delta,68.794,-135.36839
+1628,KAUBVIK I-43,Imperial Oil Limited,Abandoned,<Null>,Beaufort Sea,69.87583,-135.42203
+1640,ANGASAK L-03,Trillium Exploration Corp. Ltd.,Abandoned,EA227,Beaufort Sea,70.21225,-129.54733
+1661,AMAULIGAK F-24,Gulf Canada Resources Inc.,Abandoned,EA148,Beaufort Sea,70.05483,-133.63025
+1674,AMAULIGAK 2F-24,Gulf Canada Resources Inc.,Abandoned,EA148,Beaufort Sea,70.05475,-133.63042
+1678,AMAULIGAK 2F-24A,Gulf Canada Resources Inc.,Abandoned,EA148,Beaufort Sea,70.05478,-133.63042
+1711,AMAULIGAK 2F-24B,Gulf Canada Resources Inc.,Abandoned,EA148,Beaufort Sea,70.05483,-133.63031
+1715,AMAULIGAK O-86,Gulf Canada Resources Inc.,Abandoned,W2284,Beaufort Sea,70.09664,-133.92375
+1717,AMAULIGAK CH NO.1,Gulf Canada Resources Inc.,Abandoned,W2284,Beaufort Sea,70.05489,-133.62911
+1720,KOPANOAR 2D-14,"Hunt,Lamar",Abandoned,A2028,Beaufort Sea,70.383889,-135.091944
+1731,NIPTERK P-32,Esso Resources Canada Limited,Abandoned,EL344,Beaufort Sea,69.69636,-135.37847
+1737,AMAULIGAK 2F-24BST,Gulf Canada Resources Inc.,Abandoned,EA148,Beaufort Sea,70.05483,-133.63031
+1738,IMMIUGAK N-05,Gulf Canada Resources Inc.,Abandoned,EL346,Beaufort Sea,69.74822,-137.02244
+1739,IMMIUGAK A-06,Gulf Canada Resources Inc.,Abandoned,EL346,Beaufort Sea,69.750472,-137.005361
+1740,KINGARK J-54,Amoco Canada Petroleum Company Ltd.,Abandoned,EL346,Beaufort Sea,69.72894,-137.47081
+1741,ISSERK I-15,Imperial Oil Limited,Abandoned,EL344,Beaufort Sea,69.91236,-134.29922
+1749,UNIPKAT N-12,Shell Canada Resources Limited,Abandoned,EL335,NWT Mackenzie Delta,69.198555,-135.318805
+1763,TUK E-20,Esso Resources Canada Limited,Abandoned,<Null>,NWT Mackenzie Delta,69.321861,-133.083305
+1776,UNIPKAT B-12,Shell Canada Resources Limited,Abandoned,SL100,NWT Mackenzie Delta,69.183555,-135.306944
+1777,SHAVILIG J-20,Shell Canada Resources Limited,Abandoned,EL361,NWT Mackenzie Delta,69.160667,-135.303305
+1827,MALLIK 2L-38,Aurora College,Abandoned,<Null>,NWT Mackenzie Delta,69.46131,-134.65844
+1839,IKHIL J-35,Utility Group Facilities Inc.,Producer,<Null>,NWT Mackenzie Delta,68.74322,-134.14303
+1840,IKHIL N-26,Inuvialuit Petroleum Corporation,Abandoned,224,NWT Mackenzie Delta,68.76533,-134.11033
+1901,KURK M-15,Suncor Energy Inc.,Abandoned,<Null>,NWT Mackenzie Delta,69.08092,-135.32325
+1904,ONTARATUE RIVER D-39,Devlan Exploration Inc.,Abandoned,EL374,NWT Mainland,67.13672,-131.61925
+1908,TREE RIVER B-10,Devlan Exploration Inc.,Abandoned,EL386,NWT Mainland,67.32064,-131.75978
+1909,THUNDER RIVER N-73,Devlan Exploration Inc.,Abandoned,EL373,NWT Mainland,67.381,-131.48775
+1915,AURORA TRAINING WELL INUVIK G-04,Aurora College,Suspended,<Null>,NWT Mackenzie Delta,68.39053,-133.76172
+1919,MALLIK 3L-38,Aurora College,Abandoned,<Null>,NWT Mackenzie Delta,69.46064,-134.66156
+1920,MALLIK 4L-38,Aurora College,Abandoned,<Null>,NWT Mackenzie Delta,69.46133,-134.65969
+1921,MALLIK 5L-38,Aurora College,Abandoned,<Null>,NWT Mackenzie Delta,69.46097,-134.66064
+1933,TUK M-18,Devon ARL Corporation,Suspended,<Null>,NWT Mackenzie Delta,69.29739,-133.07628
+1941,TUK B-02,Devon ARL Corporation,Abandoned,<Null>,NWT Mackenzie Delta,69.353139,-133.016
+1942,KUGPIK L-46,Suncor Energy Inc.,Abandoned,<Null>,NWT Mackenzie Delta,68.92819,-135.45358
+1955,TAGLU N-43,Imperial Oil Enterprises Limited,Other,<Null>,NWT Mackenzie Delta,69.37919,-134.93892
+1969,ELLICE I-48,MGM Energy Corp.,Suspended,<Null>,NWT Mackenzie Delta,69.12611,-135.92597
+1977,NUNA I-30,Suncor Energy Inc.,Abandoned,<Null>,NWT Mackenzie Delta,69.15958,-133.33583
+1982,TREE RIVER C-36,Devlan Exploration Inc.,Abandoned,<Null>,NWT Mainland,67.2525,-131.860944
+1984,ITIGINKPAK F-29,Devon ARL Corporation,Abandoned,EL405,NWT Mackenzie Delta,68.47175,-134.608833
+1985,LANGLEY K-30,MGM Energy Corp.,Suspended,<Null>,NWT Mackenzie Delta,69.32514,-135.61092
+2000,UMIAK N-16,MGM Energy Corp.,Suspended,<Null>,NWT Mackenzie Delta,69.43142,-134.31542
+2016,OLIVIER H-01,MGM Energy Corp.,Abandoned,<Null>,NWT Mackenzie Delta,69.17189,-136.00403
+2017,OLIVIER 2H-01,MGM Energy Corp.,Abandoned,<Null>,NWT Mackenzie Delta,69.17189,-136.00403
+2018,UMIAK N-05,MGM Energy Corp.,Suspended,<Null>,NWT Mackenzie Delta,69.41572,-134.27222
+2027,OLIVIER 3H-01,MGM Energy Corp.,Suspended,<Null>,NWT Mackenzie Delta,69.17189,-136.00403
+2031,PAKTOA C-60,Devon ARL Corporation,Abandoned,EL420,Beaufort Sea,69.65247,-136.48669
+2043,KUMAK I-25,MGM Energy Corp.,Suspended,EL394,NWT Mackenzie Delta,69.24506,-135.08461
+2044,UNIPKAT M-45,MGM Energy Corp.,Abandoned,EL394,NWT Mackenzie Delta,69.24883,-135.45575
+2046,MALLIK 6L-38,Aurora College,Abandoned,SDL60,NWT Mackenzie Delta,69.46139,-134.65953
+2049,ATIK P-19,MGM Energy Corp.,Abandoned,EL427-417,NWT Mackenzie Delta,68.98189,-135.54506
+2053,APUT C-43,MGM Energy Corp.,Suspended,EL427-417,NWT Mackenzie Delta,69.03403,-135.69683
+2054,LANGLEY E-07,MGM Energy Corp.,Suspended,EL394,NWT Mackenzie Delta,69.27336,-135.53419
+2058,NORTH ELLICE J-17,MGM Energy Corp.,Suspended,EL427-404,NWT Mackenzie Delta,69.27519,-135.80244
+2059,ELLICE J-27,MGM Energy Corp.,Suspended,EL427-404,NWT Mackenzie Delta,69.11103,-135.84825
+2060,NORTH ELLICE A-25,MGM Energy Corp.,Abandoned,EL427-404,NWT Mackenzie Delta,69.23547,-135.83625
