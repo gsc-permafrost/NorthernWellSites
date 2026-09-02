@@ -9,7 +9,7 @@ import matplotlib as mpl
 
 metadata = pd.DataFrame({
     'Source':[
-        'Visits',
+        'CER',
         'GSC',
         'OROGO',
         'Basin',
@@ -18,7 +18,7 @@ metadata = pd.DataFrame({
         'LTLC'
     ],
     'Description':[
-        'Well site visits by Permafrost methane Group',
+        'Well site coordinates obtained from CER Frontier Office Request',
         'GSC open files with embedded well site data for the Mackenzie Delta and Beaufort Sea, primarily sourced from the Canadian Energy Regulator and/or Industry',
         'NWT Office of the Regulator of Oil and Gas Operation (OROGO) maintains a public database of all wells in the NWT *outside of* the Inuvialuit Settlement Region',
         'Database maintained by the Canadian Energy Regulator (CER) covering the central and eastern Arctic',
@@ -26,7 +26,7 @@ metadata = pd.DataFrame({
         'Consultant report for the Inuvialuit Regional Corporation (IRC) with an embedded table of well site data',
         'Consultant report for Aboriginal Affairs and Northern Development Canada with an embedded table of well site data'],
     'Citation':[
-        'In Prep',
+        'N/A',
         '@osadetz_review_mackenzie_2005_a; @hu_permafrost_investigation_2013_a; hu_overpressure_detection_2021_a',
         '@orogo_orogo_well_2026_a',
         '@natural_resources_canada_basin_contains_2021_a',
@@ -54,6 +54,7 @@ standardCols = [
     'Depth', # Depth of well
     'Data_Source' #source(s) for the data
     ]
+
 
 ## GSC data
 
@@ -136,6 +137,10 @@ GSC = pd.concat([GSC,GSC2.loc[~GSC2.index.isin(GSC.index),['Name','Operator','De
 
 GSC['Data_Source'] = 'GSC'
 GSC['Spud_Date'] = pd.to_datetime('NaT')
+
+#Fix some codes to match other records
+GSC['Name'] = GSC['Name'].str.replace('C-50-2','2C-50')
+GSC['Name'] = GSC['Name'].str.replace('L-24A','2L-24')
 
 # Table B-1 in 
 # https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiT35ezmLKWAxVyoisGHbwrKCEQFnoECA0QAQ&url=https%3A%2F%2Firc.inuvialuit.com%2Fwp-content%2Fuploads%2F2023%2F10%2FIRC_Drilling-Sumps-Failure-and-Climate-Change-Report.pdf&usg=AOvVaw0j_-_UcZ_u18z3As721IPS&opi=89978449
@@ -251,24 +256,71 @@ Basin['Depth'] = np.nan
 # https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjgt-Of8L6WAxV7MYYAHRquHEwQFnoECBkQAQ&url=https%3A%2F%2Fbeaufortrea.ca%2Fwp-content%2Fuploads%2F2013%2F03%2F2.0-L-Callow-Oil-and-Gas-Forecast.pdf&usg=AOvVaw1_HuVT_tPfw6bXXRiTD441&opi=89978449
 LTLC = pd.read_csv('source_data/wells/misc/LTLC_report.csv')
 LTLC['Data_Source'] = 'LTLC'
-# LTLC["UWI"] = None
+LTLC['Spud_Date'] = pd.to_datetime(LTLC['Spud_Date'])
+LTLC = LTLC.set_index(LTLC.Name)
+
+
+CER = pd.read_csv('source_data/wells/CER/Frontier_Wells_Inuvik_Region.csv')
+CER = CER.rename(
+    columns={
+        'WELL_NAME':'Name',
+        'STATUS':'Status',
+        'OPERATOR':'Operator'
+    }
+)
+CER['Data_Source'] = 'CER'
+CER = CER.set_index(CER['Name'])
+CER = CER.join(LTLC['Spud_Date'])
+# CER.loc[CER.index.isin(LTLC.index),'Data_Source']='CER+LTLC'
+CER['Name'] = CER['Name'].str.replace('EDLOK M-56', 'EDLOK M-56 (N-56)')
+CER['Name'] = CER['Name'].str.replace('CH NO.1', 'COREHOLE N-01')
+
+CER.index=CER['Name'].str.lower()
+
+CER['x'] = CER['NAD_83_LON']
+CER['y'] = CER['NAD_83_LAT']
+cols = CER.columns
+CER = CER.set_index(CER['Name'].str.lower())
+
 GSCa = GSC.reset_index()
 GSCa['Name'] = GSCa['Name'].str.lower()
 GSCa = GSCa.set_index('Name')
+CER = CER.join(GSCa['UWI'])
+CERy = CER.loc[~CER['UWI'].isna()].copy()
+CERn = CER.loc[CER['UWI'].isna(),cols].copy()
+
 ISRa = ISR.reset_index()
 ISRa['Name'] = ISRa['Name'].str.lower()
 ISRa = ISRa.set_index('Name')
-LTLC = LTLC.set_index(LTLC['Name'].str.lower())
-LTLC = LTLC.join(GSCa[['UWI']])
-fna = LTLC.loc[LTLC['UWI'].isna(),'UWI']
-fna = {k:v for k,v in zip(fna.index,[f'NAN_LTLC_{i}' for i in range(len(fna))])}
-LTLC.loc[LTLC['UWI'].isna(),'UWI'] = LTLC.loc[LTLC['UWI'].isna(),'UWI'].fillna(fna)
-LTLC = LTLC.set_index('UWI')
-LTLC['Data_Source'] = 'LTLC'
-LTLC['Spud_Date'] = pd.to_datetime(LTLC['Spud_Date'])
+CERn = CERn.join(ISRa['UWI'])
+CERy = pd.concat([CERy,CERn.loc[~CERn['UWI'].isna()]])
+CERn = CERn.loc[CERn['UWI'].isna(),cols].copy()
+
+OROGOa = OROGO.reset_index()
+OROGOa['Name'] = OROGOa['Name'].str.lower()
+OROGOa = OROGOa.set_index('Name')
+CERn = CERn.join(OROGOa['UWI'])
+CERy = pd.concat([CERy,CERn.loc[~CERn['UWI'].isna()]])
+CERn = CERn.loc[CERn['UWI'].isna(),cols].copy()
+
+Basina = Basin.reset_index()
+Basina['Name'] = Basina['Name'].str.lower()
+Basina = Basina.set_index('Name')
+CERn = CERn.join(Basina['UWI'])
+CERy = pd.concat([CERy,CERn.loc[~CERn['UWI'].isna()]])
+
+CERn = CERn.loc[CERn['UWI'].isna()].copy()
+
+
+fna = CERn.loc[CERn['UWI'].isna(),'UWI']
+fna = {k:v for k,v in zip(fna.index,[f'NAN_CER_{i}' for i in range(len(fna))])}
+CERn.loc[CERn['UWI'].isna(),'UWI'] = CERn.loc[CERn['UWI'].isna(),'UWI'].fillna(fna)
+CER = pd.concat([CERy,CERn])
+
 for c in standardCols:
-    if c not in LTLC:
-        LTLC[c] = np.nan
+    if c not in CER:
+        CER[c] = np.nan
+CER = CER.set_index('UWI')
 
 Temp = pd.concat(
     [
@@ -277,7 +329,7 @@ Temp = pd.concat(
 		Yukon[['Data_Source']],
 		OROGO[['Data_Source']],
 		ISR[['Data_Source']],
-        LTLC[['Data_Source']]
+        CER[['Data_Source']]
 	]
 )
 Wx = Temp.groupby(Temp.index)[['Data_Source']].agg(list).reset_index()
@@ -294,7 +346,7 @@ dataSources = {
     'OROGO':OROGO[standardCols],
     'GeoYukon':Yukon[standardCols],
     'Basin':Basin[standardCols],
-    'LTLC':LTLC[standardCols]
+    'CER':CER[standardCols]
 }
     
 toCat = []
@@ -314,7 +366,12 @@ for source in Summary.index:
                 temp[c] = temp[c].fillna(ftemp[c])
         toCat.append(temp)
 
-WellSites = pd.concat(toCat)
+WellSites = pd.concat(toCat).reset_index()
+
+
+fna = WellSites.loc[WellSites['UWI'].str.startswith('NAN_')].shape[0]
+# fna = {k:v for k,v in zip(fna.index,[f'NAN_UWI_{i}' for i in range(len(fna))])}
+WellSites.loc[WellSites['UWI'].str.startswith('NAN_'),'UWI'] = [f'NAN_UWI_{i}' for i in range(fna)]
 
 
 # Overwrite database with coordinates from well visits where applicable
@@ -329,8 +386,7 @@ rrep = ['Latitude','Longitude','x','y','Leak_Detected','Surface_Casing_Visible']
 # rrep = ['Leak_Detected','Surface_Casing_Visible']
 for i,row in WellSites[WellSites.index.isin(Visits.index)].iterrows():
     WellSites.loc[WellSites.index==i,rrep] = Visits.loc[Visits.index==i,rrep]
-    
-# breakpoint()
+
 
 WellSites = gpd.GeoDataFrame(WellSites,geometry=gpd.points_from_xy(x=WellSites['x'],y=WellSites['y']),crs='NAD1983').to_crs('EPSG:4326')
 WellSites['Operator'] = WellSites['Operator'].fillna(None)
@@ -353,7 +409,6 @@ for c in Smry.columns:
 
 Smry['n'] = WellSites.groupby('Data_Source').count()['Name']
 Smry = Smry.drop(columns='Name')
-# breakpoint()
 
 
 fn = 'source_data/wells/NorthernWellSites.geojson'
