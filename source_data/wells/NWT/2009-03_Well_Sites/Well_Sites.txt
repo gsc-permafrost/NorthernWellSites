@@ -1,0 +1,56 @@
+
+Well_Sites.txt
+March 2009
+
+Description: Point shapefile of the oil and gas well sites, monitored by the National Energy Board (NEB), located within the Peel Plateau and Plain region. 
+Please contact the Frontier Information Office of the NEB for more information and to obtain the latest well data set; http://www.neb-one.gc.ca/clf-nsi/rthnb/nrthffshr/frntrnfrmtn/frntrnfrmtnffc-eng.html
+
+Projection and Datum: Universal Transverse Mercator Zone 9, NAD 83.
+
+Map Bounding Coordinates: 	
+	West: -135.708877
+	East: -128.604618
+	North: 67.711834
+	South: 65.330490
+Local Map Bounding Coordinates: 
+	Left: 214841.96 mE
+	Right: 516734.47 mE
+	Top: 7510736.87 mN
+	Bottom: 7259168.72 mN
+
+Attributes:
+WID - NEB well identification
+WELL_NAME - Name of well
+OPERATOR - Operator name
+UWI - Unique Well Identifier
+STATUS - Current well status
+CLASSIFICA - Classification of well
+SPUD_DATE - Spud Date
+RIG_RELEAS - Rig release date
+LAT - Latitude, in decimal degrees
+LONG - Longitude, in decimal degrees
+DATUM - Datum of coordinates
+EASTING - Easting, in metres
+NORTHING - Northing, in metres
+ZONE - UTM zone of coordinates
+SOURCE - Source of data
+REFERENCE - Reference to this digital atlas
+
+Processing information:	
+Well site data were received from NEB, Apr. 2009. Spreadsheet was imported into ArcGIS, the resulting shapefile was reprojected to UTM Zone 9 and clipped to the project area. 
+
+Source: 
+National Energy Board, Apr. 2009.
+
+Digital Atlas Citation: 
+Pierce, K.L. and Jones, A.L. (compilers), 2009.  ArcGIS® 9.x Digital Atlas to accompany Regional Geoscience Studies and Petroleum Potential, Peel Plateau and Plain, Northwest Territories and Yukon: Project Volume; Northwest Territories Geoscience Office, NWT Open File 2009-03. Digital files.
+	  	
+Restrictions: The data may be viewed, and modified by users of the product, but the original source of the data must be acknowledged. Redistribution of this data, in whole or in part, in its original or modified form is prohibited without explicit written consent from the Northwest Territories Geoscience Office.
+
+Contact Information:	Northwest Territories Geoscience Office
+			Box 1500, 4601-B 52 Avenue
+			Yellowknife, Northwest Territories
+			X1A 2R3
+			Ph (867) 669-2636
+			Fax (867) 669-2725
+			ntgo@gov.nt.ca

@@ -11,6 +11,7 @@ metadata = pd.DataFrame({
     'Source':[
         'CER',
         'GSC',
+        'NTGS',
         'OROGO',
         'Basin',
         'GeoYukon',
@@ -20,6 +21,7 @@ metadata = pd.DataFrame({
     'Description':[
         'Well site coordinates obtained from CER Frontier Office Request',
         'GSC open files with embedded well site data for the Mackenzie Delta and Beaufort Sea, primarily sourced from the Canadian Energy Regulator and/or Industry',
+        'NWT Geologic Survey Database Downloads ()',
         'NWT Office of the Regulator of Oil and Gas Operation (OROGO) maintains a public database of all wells in the NWT *outside of* the Inuvialuit Settlement Region',
         'Database maintained by the Canadian Energy Regulator (CER) covering the central and eastern Arctic',
         'Yukon government data portal',
@@ -28,6 +30,7 @@ metadata = pd.DataFrame({
     'Citation':[
         'N/A',
         '@osadetz_review_mackenzie_2005_a; @hu_permafrost_investigation_2013_a; hu_overpressure_detection_2021_a',
+        '....',
         '@orogo_orogo_well_2026_a',
         '@natural_resources_canada_basin_contains_2021_a',
         '@yukon_geocortex_viewer_2026_a',
@@ -39,6 +42,7 @@ metadata = pd.DataFrame({
 
 with open('includes/Table1.qmd','w+') as f:
     f.write(tabulate(metadata[['Source','Description','Citation']],headers='keys',showindex=False))
+
 
 pd.set_option('display.max_columns', None)
 
@@ -78,10 +82,10 @@ GSC2 = pd.read_csv('source_data/wells/GSC/GSC_OF_4828.csv')
 for c in ['Latitude', 'Longitude']:
     # print(GSC2.loc[GSC2[c].replace(r'[^0-9.]',' ',regex=True).str.split().str.len()>3,c])
     DMS = pd.DataFrame(GSC2[c].replace(r'[^0-9.]',' ',regex=True).str.split().to_list(),columns=['D','M','S'],index=GSC2['Well Name'])
-    print(DMS)
-    if len(DMS.loc[DMS['M'].astype('float')>60]):
-        print('Implausible Values')
-        print(DMS.loc[DMS['M'].astype('float')>60])
+    # print(DMS)
+    # if len(DMS.loc[DMS['M'].astype('float')>60]):
+    #     print('Implausible Values')
+    #     print(DMS.loc[DMS['M'].astype('float')>60])
         
     GSC2[c] = (DMS['D'].astype('float')+DMS['M'].astype('float')/60+DMS['S'].astype('float')/3600).values
 
@@ -196,7 +200,7 @@ OROGO = OROGO.rename(
 )
 
 OROGO['Spud_Date'] = pd.to_datetime(OROGO['First SPUD year'],format='%Y')
-
+OROGO = OROGO.loc[OROGO['Classification']!= 'Water Well'].copy()
 OROGO = OROGO.set_index('UWI')
 
 #print(OROGO.head())
@@ -317,6 +321,9 @@ fna = {k:v for k,v in zip(fna.index,[f'NAN_CER_{i}' for i in range(len(fna))])}
 CERn.loc[CERn['UWI'].isna(),'UWI'] = CERn.loc[CERn['UWI'].isna(),'UWI'].fillna(fna)
 CER = pd.concat([CERy,CERn])
 
+print(CER.groupby('Status')['Name'].count())
+
+
 for c in standardCols:
     if c not in CER:
         CER[c] = np.nan
@@ -324,12 +331,12 @@ CER = CER.set_index('UWI')
 
 Temp = pd.concat(
     [
+        CER[['Data_Source']],
         GSC[['Data_Source']],
 		Basin[['Data_Source']],
 		Yukon[['Data_Source']],
 		OROGO[['Data_Source']],
-		ISR[['Data_Source']],
-        CER[['Data_Source']]
+		ISR[['Data_Source']]
 	]
 )
 Wx = Temp.groupby(Temp.index)[['Data_Source']].agg(list).reset_index()
@@ -341,12 +348,12 @@ Summary = Wx.groupby('Data_Source').count().sort_values(by='UWI',ascending=False
 
 
 dataSources = {
+    'CER':CER[standardCols],
     'GSC':GSC[standardCols],
     'Arktis':ISR[standardCols],
     'OROGO':OROGO[standardCols],
     'GeoYukon':Yukon[standardCols],
-    'Basin':Basin[standardCols],
-    'CER':CER[standardCols]
+    'Basin':Basin[standardCols]
 }
     
 toCat = []
@@ -364,10 +371,37 @@ for source in Summary.index:
             ftemp = dataSources[alt].loc[dataSources[alt].index.isin(UWI_by_source.loc[source,'UWI'])].copy().sort_index()
             for c in standardCols:
                 temp[c] = temp[c].fillna(ftemp[c])
+                if alt != 'GSC' and c == 'Status':
+                    # Update status with plug info where possible
+                    for i,v in ftemp.loc[temp[c]!=ftemp[c],c].items():
+                        if v == 'Abandoned' and (temp.loc[temp.index==i,c] == 'Suspended').all:
+                            temp.loc[temp.index==i,c] = 'Abandoned'
+                        elif (v == 'Plug and suspended' or v == 'Plug and abandoned' or v == 'P&A') and (temp.loc[temp.index==i,c] == 'Abandoned').all():
+                            temp.loc[temp.index==i,c] = 'Plug and abandoned'
+                            
+                        elif (v == 'Suspended') and (temp.loc[temp.index==i,c] == 'Plug and abandoned').all():
+                            temp.loc[temp.index==i,c] = 'Plug and abandoned'
+                        elif (temp.loc[temp.index==i,c] == 'Producer').all() or v == 'Other' or ((v == 'Suspended') and (temp.loc[temp.index==i,c] == 'Abandoned').all()):
+                            pass
+                        else:
+                            print(i,v,temp.loc[temp.index==i,c])
+                            breakpoint()
         toCat.append(temp)
+
+# line by line corrections
 
 WellSites = pd.concat(toCat).reset_index()
 
+WellSites['Name'] = WellSites['Name'].str.upper()
+
+WellSites['Plugged'] = 'Unknown'
+WellSites.loc[WellSites['Status'] == 'Plug and abandoned',['Status','Plugged']] = 'Abandoned','Yes'
+WellSites.loc[WellSites['Status'] == 'P&A',['Status','Plugged']] = 'Abandoned','Yes'
+WellSites.loc[WellSites['Status'] == 'Other','Status'] = 'Abandoned'
+WellSites.loc[WellSites['Status'] == 'SUSP','Status'] = 'Suspended'
+WellSites.loc[WellSites['Status'] == 'Producer','Plugged'] = 'No'
+
+# breakpoint()
 
 fna = WellSites.loc[WellSites['UWI'].str.startswith('NAN_')].shape[0]
 # fna = {k:v for k,v in zip(fna.index,[f'NAN_UWI_{i}' for i in range(len(fna))])}
@@ -392,9 +426,16 @@ WellSites = gpd.GeoDataFrame(WellSites,geometry=gpd.points_from_xy(x=WellSites['
 WellSites['Operator'] = WellSites['Operator'].fillna(None)
 WellSites['Spud_Date'] = WellSites['Spud_Date'].dt.strftime('%Y-%m-%d').fillna(None)
 
-cbf = gpd.read_file('source_data/boundary/lpr_000b16a_e.shp').to_crs(WellSites.crs)
+if not os.path.isfile('source_data/shoreline.shp'):
+
+    cbf = gpd.read_file('source_data/boundary/lpr_000b16a_e.shp').to_crs(WellSites.crs)
+    shoreline = cbf.dissolve()
+    shoreline.to_file('source_data/shoreline.shp')
+else:
+    shoreline = gpd.read_file('source_data/shoreline.shp')
+    
 WellSites['Off_Shore'] = True
-WellSites.loc[WellSites.within(cbf.dissolve().geometry[0]),'Off_Shore'] = False
+WellSites.loc[WellSites.within(shoreline.geometry[0]),'Off_Shore'] = False
 
 
 WellSites['Latitude'] = WellSites.geometry.y
